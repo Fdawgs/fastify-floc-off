@@ -10,4 +10,4 @@ In addition, please include the following information along with your report:
 
 -   Your name and affiliation (if any)
 -   A description of the technical details of the vulnerabilities
--   An explanation who can exploit this vulnerability, and what they gain when doing so
+-   An explanation of who can exploit this vulnerability, and what they gain when doing so

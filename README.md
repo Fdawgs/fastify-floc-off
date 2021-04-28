@@ -7,11 +7,11 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/Fdawgs/fastify-floc-off/badge.svg)](https://snyk.io/test/github/Fdawgs/fastify-floc-off)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
-> Fastify plugin to opt out of Google's FLoC advertising-surveillance network
+> Fastify plugin to opt-out of Google's FLoC advertising-surveillance network
 
 ## Intro
 
-The `fastify-floc-off` plugin sets the following response header and values to opt out of Google's FLoC advertising-surveillance network:
+The `fastify-floc-off` plugin sets the following response header and values to opt-out of Google's FLoC advertising-surveillance network:
 
 ```
 Permissions-Policy: interest-cohort=()
@@ -19,7 +19,7 @@ Permissions-Policy: interest-cohort=()
 
 You can read more about the issues surrounding Google's FLoC [on EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea) and [Plausible Analytics](https://plausible.io/blog/google-floc).
 
-[Helmet](https://github.com/helmetjs/helmet) (and in turn [fastify-helmet](https://github.com/fastify/fastify-helmet)) does not currently support `Permissions-Policy` response header setting yet, so this plugin was created out of a need for an easy way to disable/opt out of Google's FLoC network for systems at [Yeovil District Hospital NHS Foundation Trust](https://yeovilhospital.co.uk/). This ensures both patients and staff accessing web applications at the hospital are not subject to Google's unsolicited tracking.
+[Helmet](https://github.com/helmetjs/helmet) (and in turn [fastify-helmet](https://github.com/fastify/fastify-helmet)) does not currently support `Permissions-Policy` response header setting yet, so this plugin was created out of a need for an easy way to disable/opt-out of Google's FLoC network for systems at [Yeovil District Hospital NHS Foundation Trust](https://yeovilhospital.co.uk/). This ensures both patients and staff accessing web applications at the hospital are not subject to Google's unsolicited tracking.
 
 ## Installation
 
