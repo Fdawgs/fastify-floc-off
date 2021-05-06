@@ -1,5 +1,22 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/Fdawgs/fastify-floc-off/compare/v1.0.0...v1.0.1) (2021-05-06)
+
+
+### Documentation
+
+* grammar and readability fixes ([912958f](https://www.github.com/Fdawgs/fastify-floc-off/commit/912958ffbc9f0cf38c41ac485b43971e738daa61))
+* **security:** add missing hyphen ([65b2715](https://www.github.com/Fdawgs/fastify-floc-off/commit/65b27155eb9ec92f4ec6795c5c194e14d5c76ebd))
+
+
+### Dependencies
+
+* **deps-dev:** bump eslint-plugin-jsdoc from 32.3.4 to 33.0.0 ([dfafef3](https://www.github.com/Fdawgs/fastify-floc-off/commit/dfafef3f0bec52b87a511c895dbc5a6da1801fd8))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([a8b1884](https://www.github.com/Fdawgs/fastify-floc-off/commit/a8b1884a8137a0a56a1192dfcfd76d61b93dd9b5))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([4ecd92e](https://www.github.com/Fdawgs/fastify-floc-off/commit/4ecd92e54d8602e66cc915d9a5491f93d592efcc))
+* **deps:** bump typoci/spellcheck-action from v1.0.0 to v1.1.0 ([465f6ba](https://www.github.com/Fdawgs/fastify-floc-off/commit/465f6ba6dc2e7b99f10fa10d48e894a8bab7dc90))
+* **deps:** bump wagoid/commitlint-github-action from v3.1.0 to v3.1.1 ([f656012](https://www.github.com/Fdawgs/fastify-floc-off/commit/f656012e4fe6f50becd774080a637732a1128487))
+
 ## 1.0.0 (2021-04-28)
 
 
