@@ -26,13 +26,13 @@ describe("Floc-Off Plugin", () => {
 				url: "/",
 			});
 
-			expect(response.statusCode).toEqual(200);
+			expect(response.payload).toBe("ok");
 			expect(response.headers).toEqual(
 				expect.objectContaining({
 					"permissions-policy": "interest-cohort=()",
 				})
 			);
-			expect(response.payload).toEqual("ok");
+			expect(response.statusCode).toBe(200);
 		});
 	});
 });
