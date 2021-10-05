@@ -27,11 +27,9 @@ describe("Floc-Off Plugin", () => {
 			});
 
 			expect(response.payload).toBe("ok");
-			expect(response.headers).toEqual(
-				expect.objectContaining({
-					"permissions-policy": "interest-cohort=()",
-				})
-			);
+			expect(response.headers).toMatchObject({
+				"permissions-policy": "interest-cohort=()",
+			});
 			expect(response.statusCode).toBe(200);
 		});
 	});
