@@ -1,5 +1,46 @@
 # Changelog
 
+### [1.0.3](https://www.github.com/Fdawgs/fastify-floc-off/compare/v1.0.2...v1.0.3) (2021-10-29)
+
+
+### Continuous Integration
+
+* **automerge:** update location of octokit rest methods ([0e82ead](https://www.github.com/Fdawgs/fastify-floc-off/commit/0e82ead92e0dd6f2f87e2ab545a4cd099fc14516))
+* **ci:** revert to workflow-run-clean-action from github concurrency ([2aa77ca](https://www.github.com/Fdawgs/fastify-floc-off/commit/2aa77ca05c4752b0010f77beb3a895aec5608d1e))
+
+
+### Miscellaneous
+
+* **.eslintrc:** remove inaccurate sourcetype ([#50](https://www.github.com/Fdawgs/fastify-floc-off/issues/50)) ([d8ed606](https://www.github.com/Fdawgs/fastify-floc-off/commit/d8ed606d41e4a777e53e2695ccb25baeeb839c5e))
+* **.eslintrc:** remove redundant `impliedStrict` option ([#52](https://www.github.com/Fdawgs/fastify-floc-off/issues/52)) ([944ed87](https://www.github.com/Fdawgs/fastify-floc-off/commit/944ed875b4417fe04442e826f6c87c33d139da3c))
+* **.eslintrc:** set correct ecmascript version ([#39](https://www.github.com/Fdawgs/fastify-floc-off/issues/39)) ([bd46255](https://www.github.com/Fdawgs/fastify-floc-off/commit/bd46255f351285051881ac60183992bf512e6208))
+* **.husky/.gitignore:** remove now redundant file ([38199a8](https://www.github.com/Fdawgs/fastify-floc-off/commit/38199a8f107d94f40b895dfe5f7cf6e14c957695))
+* **.prettierrc:** enable `bracketsameline` option ([336b0ed](https://www.github.com/Fdawgs/fastify-floc-off/commit/336b0ed16982548526dd4ae152d7553eddca41f1))
+* **.prettierrc:** override defaults for html, css, and scss files ([#40](https://www.github.com/Fdawgs/fastify-floc-off/issues/40)) ([e9cd573](https://www.github.com/Fdawgs/fastify-floc-off/commit/e9cd57371c640ee7897cbfe29a69911465e0286c))
+* **.vscode:** add `mhutchie.git-graph` extension ([085479a](https://www.github.com/Fdawgs/fastify-floc-off/commit/085479a64a5f15e927b8cf8857094b68c2274cd6))
+* **.vscode:** remove deprecated settings ([#51](https://www.github.com/Fdawgs/fastify-floc-off/issues/51)) ([38d4b67](https://www.github.com/Fdawgs/fastify-floc-off/commit/38d4b673918a4f2fbb6e26af6ed9d09f2e1154d5))
+
+
+### Documentation
+
+* bump coc from v2.0.0 to v2.1.0 ([#53](https://www.github.com/Fdawgs/fastify-floc-off/issues/53)) ([939cf51](https://www.github.com/Fdawgs/fastify-floc-off/commit/939cf510374fecd1c7bfc69ecba8a0f11799134b))
+
+
+### Dependencies
+
+* **deps-dev:** add eslint-plugin-security-node ([#41](https://www.github.com/Fdawgs/fastify-floc-off/issues/41)) ([00db130](https://www.github.com/Fdawgs/fastify-floc-off/commit/00db13030ab45f727acf35cc34c1ee649752e541))
+* **deps-dev:** bump dev dependencies ([#60](https://www.github.com/Fdawgs/fastify-floc-off/issues/60)) ([e8f3b93](https://www.github.com/Fdawgs/fastify-floc-off/commit/e8f3b93f731e30a09ab8eba09850c56569991135))
+* **deps-dev:** bump eslint-plugin-jest from 24.7.0 to 25.2.2 ([e16c871](https://www.github.com/Fdawgs/fastify-floc-off/commit/e16c87160bec68d10566faef9588f79cdbde3633))
+* **deps-dev:** bump eslint-plugin-jsdoc from 36.1.1 to 37.0.3 ([106412f](https://www.github.com/Fdawgs/fastify-floc-off/commit/106412f8226c816c4428506cacc498467513e505))
+* **deps-dev:** bump prettier from 2.3.2 to 2.4.1 ([b8316d3](https://www.github.com/Fdawgs/fastify-floc-off/commit/b8316d32298ae25131180cdf62b8bf396e0ee425))
+* **deps:** bump actions/checkout from 2.3.4 to 2.3.5 ([42c7bdc](https://www.github.com/Fdawgs/fastify-floc-off/commit/42c7bdcf3df84ede028397165c98cd8db60cd111))
+* **deps:** bump actions/github-script from 4.1 to 5 ([08a9724](https://www.github.com/Fdawgs/fastify-floc-off/commit/08a9724ee02f5ee78ad00343f892ef361377b8ec))
+* **deps:** bump actions/setup-node from 2.4.0 to 2.4.1 ([3ad60a8](https://www.github.com/Fdawgs/fastify-floc-off/commit/3ad60a8c52ab700c65b2fd7289372b5fe8842796))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([99e9e9f](https://www.github.com/Fdawgs/fastify-floc-off/commit/99e9e9f5ef43bd3039f3316759440c5b78284cc2))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([d8bf0d5](https://www.github.com/Fdawgs/fastify-floc-off/commit/d8bf0d535855f7623e50f23be6768f9c2465a220))
+* **deps:** bump wagoid/commitlint-github-action from 4.1.1 to 4.1.4 ([77dd11e](https://www.github.com/Fdawgs/fastify-floc-off/commit/77dd11eaf037b15fac1521fd795cf67f52b7601c))
+* **deps:** bump wagoid/commitlint-github-action from 4.1.4 to 4.1.9 ([7bb7c56](https://www.github.com/Fdawgs/fastify-floc-off/commit/7bb7c5626cc2a2ee92a8f507f362b593402a371c))
+
 ### [1.0.2](https://www.github.com/Fdawgs/fastify-floc-off/compare/v1.0.1...v1.0.2) (2021-09-06)
 
 
