@@ -1,5 +1,50 @@
 # Changelog
 
+### [1.0.4](https://github.com/Fdawgs/fastify-floc-off/compare/v1.0.3...v1.0.4) (2022-01-07)
+
+
+### Documentation
+
+* **coc:** reduce verbosity ([16a2def](https://github.com/Fdawgs/fastify-floc-off/commit/16a2defb0bb734768de00a7e6d565b3ee1b71dc7))
+* **contributing:** add mention of husky pre-commit hook ([ada22c8](https://github.com/Fdawgs/fastify-floc-off/commit/ada22c862035dc4d95bebda86f9bbb106093fdc4))
+* **contributing:** add step for `lint:licenses` script ([e0d78c8](https://github.com/Fdawgs/fastify-floc-off/commit/e0d78c8184ad8ab2cd5b3351914f65a075106279))
+
+
+### Miscellaneous
+
+* **.prettierrc:** only enable `bracketSameLine` for html ([#63](https://github.com/Fdawgs/fastify-floc-off/issues/63)) ([797d9a3](https://github.com/Fdawgs/fastify-floc-off/commit/797d9a3acd6ed3909c0dc18c86dc9f3c83a0516e))
+* **husky/pre-commit:** add `lint:licenses` script ([#73](https://github.com/Fdawgs/fastify-floc-off/issues/73)) ([5093967](https://github.com/Fdawgs/fastify-floc-off/commit/509396799ed813f4ea112f679a7a366e6455db75))
+* ignore `.yarnclean` ([#74](https://github.com/Fdawgs/fastify-floc-off/issues/74)) ([263ed53](https://github.com/Fdawgs/fastify-floc-off/commit/263ed530488399353c80e6eb60f88c43bb816449))
+* **index:** fix `server` jsdoc tag param type ([4e73240](https://github.com/Fdawgs/fastify-floc-off/commit/4e73240dd1588c4e42e5f15c2e4f931cc91eb42a))
+
+
+### Continuous Integration
+
+* **cd:** stop `prepare` script running ([#65](https://github.com/Fdawgs/fastify-floc-off/issues/65)) ([7758b27](https://github.com/Fdawgs/fastify-floc-off/commit/7758b274760e6731bac5c005df1f2885c4014ef3))
+* **ci:** do not run clean-up on draft prs ([cc8d3a0](https://github.com/Fdawgs/fastify-floc-off/commit/cc8d3a00000a1bc2d9c22f70b1f945228d492df7))
+* remove spellcheck workflow ([#84](https://github.com/Fdawgs/fastify-floc-off/issues/84)) ([500b258](https://github.com/Fdawgs/fastify-floc-off/commit/500b25883987ae63c8a6c3a54a799e8595003307))
+* **spell-check:** do not run on draft prs ([7560aae](https://github.com/Fdawgs/fastify-floc-off/commit/7560aae9113d85830619701dbfd46e4870dcb7c8))
+* trigger workflows when drafts marked as "ready to review" ([#67](https://github.com/Fdawgs/fastify-floc-off/issues/67)) ([5266ebc](https://github.com/Fdawgs/fastify-floc-off/commit/5266ebce11cd1b60cc5577df2b39cce7680be343))
+
+
+### Dependencies
+
+* **dependabot:** ignore minor and patch github-actions updates ([#68](https://github.com/Fdawgs/fastify-floc-off/issues/68)) ([c8cde67](https://github.com/Fdawgs/fastify-floc-off/commit/c8cde674726d2fa79487f07009951fd9efbba803))
+* **dependabot:** ignore minor and patch release-please-action updates ([#77](https://github.com/Fdawgs/fastify-floc-off/issues/77)) ([cdbbcf4](https://github.com/Fdawgs/fastify-floc-off/commit/cdbbcf4b3038561bd99ad799153721089ddd43ca))
+* **deps-dev:** bump @commitlint/cli from 13.2.1 to 14.1.0 ([fc255dc](https://github.com/Fdawgs/fastify-floc-off/commit/fc255dca1bd6c5b79e5072913ee665399729b9de))
+* **deps-dev:** bump @commitlint/cli from 14.1.0 to 15.0.0 ([3511356](https://github.com/Fdawgs/fastify-floc-off/commit/3511356744bbf25c5206c575cf8a86413bc6b2f7))
+* **deps-dev:** bump @commitlint/cli from 15.0.0 to 16.0.1 ([93ea8df](https://github.com/Fdawgs/fastify-floc-off/commit/93ea8df30a0f8f016422a9c8f843f2d30efbfb5f))
+* **deps-dev:** bump @commitlint/config-conventional ([c865c75](https://github.com/Fdawgs/fastify-floc-off/commit/c865c75df7a8173cef0a2440bc5a12fd39738c0f))
+* **deps-dev:** bump @commitlint/config-conventional ([93e89ff](https://github.com/Fdawgs/fastify-floc-off/commit/93e89ff91a3d94f7872d690a3190c832643195a4))
+* **deps-dev:** bump @commitlint/config-conventional ([e220eb1](https://github.com/Fdawgs/fastify-floc-off/commit/e220eb19f26acfc5e0b9f1caa60e4c143897c05c))
+* **deps-dev:** bump eslint from 7.32.0 to 8.6.0 ([3a208f4](https://github.com/Fdawgs/fastify-floc-off/commit/3a208f4127f7fa3b723b520274345d288655540f))
+* **deps-dev:** bump eslint-config-airbnb-base from 14.2.1 to 15.0.0 ([49947ff](https://github.com/Fdawgs/fastify-floc-off/commit/49947ffc69d149f2bb27e33c282d3306e1ed05d9))
+* **deps-dev:** bump eslint-plugin-promise from 5.2.0 to 6.0.0 ([38182a2](https://github.com/Fdawgs/fastify-floc-off/commit/38182a224edf8ef7f311fbce778cb2b08fd5304f))
+* **deps-dev:** bump prettier from 2.4.1 to 2.5.0 ([a0df2bf](https://github.com/Fdawgs/fastify-floc-off/commit/a0df2bf6dfd932de325da1c8f15a62f2d48a84c2))
+* **deps-dev:** bump prettier from 2.5.0 to 2.5.1 ([4a8569c](https://github.com/Fdawgs/fastify-floc-off/commit/4a8569c15fd7f7671ba9c1f0d23b3db234d76841))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([7c62c19](https://github.com/Fdawgs/fastify-floc-off/commit/7c62c19c8c0c921c5052d1cc2fd2b67bf4779967))
+* **deps:** bump GoogleCloudPlatform/release-please-action from 2 to 3 ([d917de8](https://github.com/Fdawgs/fastify-floc-off/commit/d917de89a90549c546170ad62f04ca6bedf20329))
+
 ### [1.0.3](https://www.github.com/Fdawgs/fastify-floc-off/compare/v1.0.2...v1.0.3) (2021-10-29)
 
 
