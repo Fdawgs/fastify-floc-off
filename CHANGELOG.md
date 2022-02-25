@@ -1,5 +1,24 @@
 # Changelog
 
+### [1.0.5](https://github.com/Fdawgs/fastify-floc-off/compare/v1.0.4...v1.0.5) (2022-02-25)
+
+
+### Miscellaneous
+
+* **.github:** remove trailing whitespace ([7de0f06](https://github.com/Fdawgs/fastify-floc-off/commit/7de0f06bb71df76d9c7dc61a7cf90faab1c3ccb2))
+
+
+### Dependencies
+
+* **dependabot:** ignore minor and patch commit-lint updates ([#87](https://github.com/Fdawgs/fastify-floc-off/issues/87)) ([f6f0c5f](https://github.com/Fdawgs/fastify-floc-off/commit/f6f0c5fe54468ac331d19c7d4019c6c037e32f03))
+* **dependabot:** major tags no longer need ignore support ([b0776cd](https://github.com/Fdawgs/fastify-floc-off/commit/b0776cdc316d89dc4f053be063a02c91738e3a63))
+* **dependabot:** use default open-pull-requests-limit value ([ccbbd8e](https://github.com/Fdawgs/fastify-floc-off/commit/ccbbd8e8fed1af26ae197a100b168646bd780ab6))
+* **deps-dev:** bump dev dependencies ([f73618e](https://github.com/Fdawgs/fastify-floc-off/commit/f73618ef553b14e524229c3d2e48621088a1da94))
+* **deps-dev:** bump eslint-plugin-jest from 25.7.0 to 26.0.0 ([69220ba](https://github.com/Fdawgs/fastify-floc-off/commit/69220ba60dfb59a86e0d5ebc468e60ed8b7c2546))
+* **deps-dev:** unpin prettier version ([9a86e04](https://github.com/Fdawgs/fastify-floc-off/commit/9a86e04e46677ee4c7c494546773353c6b604feb))
+* **deps:** bump actions/github-script from 5 to 6 ([051669a](https://github.com/Fdawgs/fastify-floc-off/commit/051669a80d395bffe4ce775edca991b0bfd4198a))
+* **deps:** bump actions/setup-node from 2 to 3 ([a3fdea0](https://github.com/Fdawgs/fastify-floc-off/commit/a3fdea05c4bb4ea4f00ebdb907ac5628e7a00e5a))
+
 ### [1.0.4](https://github.com/Fdawgs/fastify-floc-off/compare/v1.0.3...v1.0.4) (2022-01-07)
 
 
