@@ -6,10 +6,8 @@ const fp = require("fastify-plugin");
  * @param {object} server - Fastify instance.
  */
 async function plugin(server) {
-	server.addHook("onRequest", async (req, reply) => {
-		reply.headers({
-			"Permissions-Policy": "interest-cohort=()",
-		});
+	server.addHook("onRequest", async (req, res) => {
+		res.header("Permissions-Policy", "interest-cohort=()");
 	});
 }
 
