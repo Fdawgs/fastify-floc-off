@@ -1,5 +1,37 @@
 # Changelog
 
+### [1.0.6](https://github.com/Fdawgs/fastify-floc-off/compare/v1.0.5...v1.0.6) (2022-03-28)
+
+
+### Documentation
+
+* improve readability ([991f362](https://github.com/Fdawgs/fastify-floc-off/commit/991f3625a37691d46f3275419eee31dff958f685))
+
+
+### Miscellaneous
+
+* **scripts:** remove redundant gitkraken fix from prepare script ([83943d6](https://github.com/Fdawgs/fastify-floc-off/commit/83943d6f40a4dbdf1443776c2576573c5d6539df))
+* **scripts:** use shorter arg aliases; remove debugging args from jest ([ac15f3b](https://github.com/Fdawgs/fastify-floc-off/commit/ac15f3bfe0151234aa3c209729e4b0e7b3451d00))
+
+
+### Continuous Integration
+
+* add job step names, workflow comments, and whitespace ([970f4db](https://github.com/Fdawgs/fastify-floc-off/commit/970f4db7202a8725c120ee8d0aeb9cd2338afff6))
+* **codeql-analysis:** remove unused autobuild step ([3648199](https://github.com/Fdawgs/fastify-floc-off/commit/3648199bc37942745cdda65c11e006c3efb04a96))
+* **codeql:** grant minimum permissions to run; rename file ([#98](https://github.com/Fdawgs/fastify-floc-off/issues/98)) ([6ba714f](https://github.com/Fdawgs/fastify-floc-off/commit/6ba714ffb09210672d1b2ed34a14a1dec8587c60))
+* only save pr number artifact for dependabot ([a7525d9](https://github.com/Fdawgs/fastify-floc-off/commit/a7525d930571e4657ebcf5aea68cb13ce544a52d))
+
+
+### Dependencies
+
+* **deps-dev:** bump eslint-plugin-jsdoc from 37.9.7 to 38.0.6 ([e501410](https://github.com/Fdawgs/fastify-floc-off/commit/e501410b332d50b6b875bf5db6d9c1df7f6fb5bc))
+* **deps:** bump actions/checkout from 2 to 3 ([6df37d1](https://github.com/Fdawgs/fastify-floc-off/commit/6df37d1ff2556e4c07f99523f12e5ca60573911a))
+
+
+### Improvements
+
+* **index:** use `header()` instead of `headers()` ([#101](https://github.com/Fdawgs/fastify-floc-off/issues/101)) ([35cc795](https://github.com/Fdawgs/fastify-floc-off/commit/35cc7957e02dcf735a378668832ea5476e23e773))
+
 ### [1.0.5](https://github.com/Fdawgs/fastify-floc-off/compare/v1.0.4...v1.0.5) (2022-02-25)
 
 
