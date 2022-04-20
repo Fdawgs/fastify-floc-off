@@ -4,7 +4,6 @@
 [![npm version](https://img.shields.io/npm/v/fastify-floc-off)](https://www.npmjs.com/package/fastify-floc-off)
 ![Build Status](https://github.com/Fdawgs/fastify-floc-off/workflows/CI/badge.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/Fdawgs/fastify-floc-off/badge.svg?branch=master)](https://coveralls.io/github/Fdawgs/fastify-floc-off?branch=master)
-[![Known Vulnerabilities](https://snyk.io/test/github/Fdawgs/fastify-floc-off/badge.svg)](https://snyk.io/test/github/Fdawgs/fastify-floc-off)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
 > Fastify plugin to opt-out of Google's FLoC advertising-surveillance network
