@@ -25,7 +25,7 @@ You can read more about the issues surrounding Google's FLoC [on EFF](https://ww
 Install using [`npm`](https://www.npmjs.com/package/fastify-floc-off):
 
 ```bash
-npm install fastify-floc-off
+npm i fastify-floc-off
 ```
 
 Or [`yarn`](https://yarnpkg.com/en/package/fastify-floc-off):
