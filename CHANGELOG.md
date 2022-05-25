@@ -1,5 +1,55 @@
 # Changelog
 
+### [1.0.7](https://github.com/Fdawgs/fastify-floc-off/compare/v1.0.6...v1.0.7) (2022-05-25)
+
+
+### Documentation
+
+* **readme:** remove snyk badge ([af7eb11](https://github.com/Fdawgs/fastify-floc-off/commit/af7eb11b06d9fb9d9a1677bec1b19b16af691e12))
+
+
+### Miscellaneous
+
+* **.eslintrc:** enable `plugin:jest/style` rules ([#113](https://github.com/Fdawgs/fastify-floc-off/issues/113)) ([b23ebcd](https://github.com/Fdawgs/fastify-floc-off/commit/b23ebcd3f5e58b4013871b08b4216e21e5488a3d))
+* **.github/codeql-config:** remove quotation marks ([53e81b2](https://github.com/Fdawgs/fastify-floc-off/commit/53e81b22fed59fbbe9f82161a3f50825d20ab21a))
+* **.github/workflows/link-check:** use `skip` input ([85f1b3d](https://github.com/Fdawgs/fastify-floc-off/commit/85f1b3dd0d824b1db0da935912cfaa46003f381e))
+* **bug_report:** use node 18 as placeholder for `node-version` ([ebedd18](https://github.com/Fdawgs/fastify-floc-off/commit/ebedd18951942d55b6481e523dff3737159b6763))
+* **ci:** remove quotation marks from step name ([9238948](https://github.com/Fdawgs/fastify-floc-off/commit/92389482e6397ed5d2d83ebb5795cca247a17716))
+* use npm install alias ([c52fc0a](https://github.com/Fdawgs/fastify-floc-off/commit/c52fc0ade2fd8db2a4c949f04d5d670abbe8b35c))
+
+
+### Continuous Integration
+
+* add dependency-review job ([14f81fd](https://github.com/Fdawgs/fastify-floc-off/commit/14f81fd52fd2e7cb9db794b167668f9074ba3d17))
+* **automerge:** fix context ([7c3cab1](https://github.com/Fdawgs/fastify-floc-off/commit/7c3cab1a244ca1c1d83b36829e2601f3aa0aa8e9))
+* **automerge:** squash automerge prs ([#102](https://github.com/Fdawgs/fastify-floc-off/issues/102)) ([51db005](https://github.com/Fdawgs/fastify-floc-off/commit/51db0051145380e7e4efc5eeb7e1cd17b5b66941))
+* **cd:** update org name for release-please-action ([26aa002](https://github.com/Fdawgs/fastify-floc-off/commit/26aa002bee03023b7671ce37f5febdb77c5a1f12))
+* **cd:** use `lts/*` for node setup in release job ([bcff76c](https://github.com/Fdawgs/fastify-floc-off/commit/bcff76c258cb1d3492b72ecead4998c188cd30f0))
+* check `user.login` is dependabot instead of `actor` ([#115](https://github.com/Fdawgs/fastify-floc-off/issues/115)) ([fc853c1](https://github.com/Fdawgs/fastify-floc-off/commit/fc853c1c0506128e18201205d8c39c0981d68dd5))
+* **ci:** add node 18 to test matrix ([#114](https://github.com/Fdawgs/fastify-floc-off/issues/114)) ([4941eb1](https://github.com/Fdawgs/fastify-floc-off/commit/4941eb1a5075968040572c35cbd1eac2574f5ed9))
+* **ci:** require `unit-tests` job to pass for `save-pr-number` job to run ([2550c32](https://github.com/Fdawgs/fastify-floc-off/commit/2550c32dc62861cf4e130f6425c963669bf790f2))
+* **ci:** use `lts/*` for node setup in lint job ([2c89dd6](https://github.com/Fdawgs/fastify-floc-off/commit/2c89dd63106450d6c94fdaa0f71bfc2761b64c21))
+* **ci:** use `node-version` for node matrix key ([51d4cef](https://github.com/Fdawgs/fastify-floc-off/commit/51d4cef489e481e4c2dc4641e389ade35d07ec5e))
+* **codeql:** only run on pr changes to `.html`, `.js`, and `.yml` files ([0a34500](https://github.com/Fdawgs/fastify-floc-off/commit/0a34500b5b2d61634d50c333326fdc78d09c286b))
+* **codeql:** resolve missing analyses ([9da0a10](https://github.com/Fdawgs/fastify-floc-off/commit/9da0a10c79447158e9e6ee0c845a6e48166d20ac))
+* **codeql:** specify which files to scan during analysis ([bd55ff5](https://github.com/Fdawgs/fastify-floc-off/commit/bd55ff579de9db266db4c27311cc46d57d6bb14e))
+* **link-check:** replace `npx linkinator` call with github action ([67ffdfe](https://github.com/Fdawgs/fastify-floc-off/commit/67ffdfe2bb3ac7bf939237bf5ecf17be10d02f55))
+* only trigger dependency-review on pr ([ce56e18](https://github.com/Fdawgs/fastify-floc-off/commit/ce56e18a6da283853176f3afd2c0ab0c127f317a))
+* reduce workflow permissions to minimum ([97558a7](https://github.com/Fdawgs/fastify-floc-off/commit/97558a7bacbb9bcc48f80f85c33142edc6765cf5))
+* remove git credentials after checkout ([#118](https://github.com/Fdawgs/fastify-floc-off/issues/118)) ([65dedb2](https://github.com/Fdawgs/fastify-floc-off/commit/65dedb22f1c2cfb740021abee5318024e14dd7bd))
+* replace workflow-run-cleanup-action with github concurrency ([3644841](https://github.com/Fdawgs/fastify-floc-off/commit/36448419dff5e451ef07a92e67eae47f0e04e72d))
+
+
+### Dependencies
+
+* **deps-dev:** bump @commitlint/cli from 16.3.0 to 17.0.1 ([#120](https://github.com/Fdawgs/fastify-floc-off/issues/120)) ([0637d06](https://github.com/Fdawgs/fastify-floc-off/commit/0637d0653d0e7209176cc717046c48936bcbdb7f))
+* **deps-dev:** bump @commitlint/config-conventional ([#119](https://github.com/Fdawgs/fastify-floc-off/issues/119)) ([05a3e8b](https://github.com/Fdawgs/fastify-floc-off/commit/05a3e8b2e3a95c9c12557eeb4ab2a14cdfbed97d))
+* **deps-dev:** bump eslint-plugin-jsdoc from 38.1.6 to 39.2.9 ([#109](https://github.com/Fdawgs/fastify-floc-off/issues/109)) ([5c90649](https://github.com/Fdawgs/fastify-floc-off/commit/5c90649604d691fc9c5e1586ae66741515c99f96))
+* **deps-dev:** bump husky from 7.0.4 to 8.0.1 ([#121](https://github.com/Fdawgs/fastify-floc-off/issues/121)) ([04e5380](https://github.com/Fdawgs/fastify-floc-off/commit/04e5380ba6c2378d13b50f232e024586be9081e9))
+* **deps-dev:** bump jest from 27.5.1 to 28.0.3 ([#110](https://github.com/Fdawgs/fastify-floc-off/issues/110)) ([02c9166](https://github.com/Fdawgs/fastify-floc-off/commit/02c91661471bb7cfddcb0b522a18f2c13a2e428b))
+* **deps:** bump actions/upload-artifact from 2 to 3 ([#107](https://github.com/Fdawgs/fastify-floc-off/issues/107)) ([696d5e6](https://github.com/Fdawgs/fastify-floc-off/commit/696d5e63d7ba9f3605160aeb09d3edd8ab1e4e85))
+* **deps:** bump github/codeql-action from 1 to 2 ([#108](https://github.com/Fdawgs/fastify-floc-off/issues/108)) ([eafd106](https://github.com/Fdawgs/fastify-floc-off/commit/eafd106fa3abb0662093ddf6961471a873ca166b))
+
 ### [1.0.6](https://github.com/Fdawgs/fastify-floc-off/compare/v1.0.5...v1.0.6) (2022-03-28)
 
 
