@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/Fdawgs/fastify-floc-off/compare/v1.0.7...v2.0.0) (2022-05-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* * feat!: support fastify v4.x
+
+### Features
+
+* support fastify v4.x ([#122](https://github.com/Fdawgs/fastify-floc-off/issues/122)) ([56247e9](https://github.com/Fdawgs/fastify-floc-off/commit/56247e9dd791102ab28cc574c9a1e7972e5cab9f))
+
 ### [1.0.7](https://github.com/Fdawgs/fastify-floc-off/compare/v1.0.6...v1.0.7) (2022-05-25)
 
 
