@@ -5,7 +5,7 @@
 
 ### ⚠ BREAKING CHANGES
 
-* * feat!: support fastify v4.x
+* * Dropped support for Fastify v3.x and Node 10.x
 
 ### Features
 
