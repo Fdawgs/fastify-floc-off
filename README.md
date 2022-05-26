@@ -34,6 +34,8 @@ Or [`yarn`](https://yarnpkg.com/en/package/fastify-floc-off):
 yarn add fastify-floc-off
 ```
 
+For Fastify v3.x support, use `fastify-floc-off@1.0.7`.
+
 fastify-floc-off's test scripts use npm commands.
 
 ## Example Usage
