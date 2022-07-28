@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.0...v2.0.1) (2022-07-25)
+
+
+### Miscellaneous
+
+* **.github/funding:** remove unused keys ([8d7365d](https://github.com/Fdawgs/fastify-floc-off/commit/8d7365ded07f9d05dd601ae491b05f010936054e))
+* **.github:** add `FUNDING.yml` ([f1653b5](https://github.com/Fdawgs/fastify-floc-off/commit/f1653b52d3798741b070691096856256896429b7))
+* **.gitignore:** use latest github ignore template ([0977ef6](https://github.com/Fdawgs/fastify-floc-off/commit/0977ef6c424137fe7c3939951583ead21ff9aa4d))
+* **.prettierignore:** add new paths from `.gitignore` ([4ff9118](https://github.com/Fdawgs/fastify-floc-off/commit/4ff9118d2bfc8d4031c4f2c304e5a557a659b482))
+* ignore pnpm lock file ([67fbd42](https://github.com/Fdawgs/fastify-floc-off/commit/67fbd42a6ddeb1ab799205b0c025b7c63f0beeee))
+
+
+### Dependencies
+
+* **dependabot:** increase `open-pull-requests-limit` from 5 to 20 ([4a3fc2b](https://github.com/Fdawgs/fastify-floc-off/commit/4a3fc2bc323d352fee06f41df2d629cf1f680a8d))
+* **deps:** bump actions/dependency-review-action from 1 to 2 ([#125](https://github.com/Fdawgs/fastify-floc-off/issues/125)) ([944b827](https://github.com/Fdawgs/fastify-floc-off/commit/944b827f149055bd3ed53d1d3b044ff8097a2ff1))
+* **deps:** bump fastify-plugin from 3.0.1 to 4.0.0 ([#127](https://github.com/Fdawgs/fastify-floc-off/issues/127)) ([a437977](https://github.com/Fdawgs/fastify-floc-off/commit/a437977dacab00bdb355c2173f89984dd5afcd48))
+* **deps:** bump wagoid/commitlint-github-action from 4 to 5 ([#126](https://github.com/Fdawgs/fastify-floc-off/issues/126)) ([58a9ef2](https://github.com/Fdawgs/fastify-floc-off/commit/58a9ef2ef238e15bcdcea5c303a315cdd93ab1a2))
+
+
+### Documentation
+
+* **readme:** update example for fastify v4 ([84161cf](https://github.com/Fdawgs/fastify-floc-off/commit/84161cf17a0882d59962d38a633c9c0962aabe73))
+
 ## [2.0.0](https://github.com/Fdawgs/fastify-floc-off/compare/v1.0.7...v2.0.0) (2022-05-26)
 
 
