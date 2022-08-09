@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.1...v2.0.2) (2022-08-09)
+
+
+### Miscellaneous
+
+* **.npmrc:** disable package-lock generation ([#128](https://github.com/Fdawgs/fastify-floc-off/issues/128)) ([e722bad](https://github.com/Fdawgs/fastify-floc-off/commit/e722bada01654ad40de38f5ec2be6a19d378b419))
+
+
+### Dependencies
+
+* **.npmignore:** add `CHANGELOG.md`; reduce package size by ~82% ([#130](https://github.com/Fdawgs/fastify-floc-off/issues/130)) ([18d45da](https://github.com/Fdawgs/fastify-floc-off/commit/18d45dafd80989b59f2b295faa1c77a743fe993c))
+* **deps:** bump dependencies ([#131](https://github.com/Fdawgs/fastify-floc-off/issues/131)) ([f34ab36](https://github.com/Fdawgs/fastify-floc-off/commit/f34ab36c60b72386e6f08c193b0a85c8e715c911))
+
 ## [2.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.0...v2.0.1) (2022-07-25)
 
 
