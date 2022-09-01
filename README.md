@@ -45,9 +45,11 @@ const Fastify = require("fastify");
 const flocOff = require("fastify-floc-off");
 
 const server = Fastify();
-await server.register(flocOff);
+server.register(flocOff);
 
-server.get("/", () => "ok");
+server.get("/", (req, res) => {
+	res.send("ok");
+});
 
 await server.listen({ port: 3000 });
 ```
