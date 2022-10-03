@@ -1,5 +1,31 @@
 # Changelog
 
+## [2.0.3](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.2...v2.0.3) (2022-10-03)
+
+
+### Documentation
+
+* **readme:** convert sync async example to sync only ([4737968](https://github.com/Fdawgs/fastify-floc-off/commit/473796819c2cea6d6ee8cde037106f3d0c394770))
+* **readme:** remove redundant statement ([218b43c](https://github.com/Fdawgs/fastify-floc-off/commit/218b43c0f6b79f7f480ae1772458afda99cd5ddf))
+* use shorter urls; remove yarn install guidance ([fe7690d](https://github.com/Fdawgs/fastify-floc-off/commit/fe7690db0097037fad65f4be3ea3f57fdc8029ca))
+
+
+### Miscellaneous
+
+* **.husky:** shell path and arg updates ([#132](https://github.com/Fdawgs/fastify-floc-off/issues/132)) ([c98fb33](https://github.com/Fdawgs/fastify-floc-off/commit/c98fb33b5d72d3e498a2e97a610a5ed747f45da2))
+* **.npmignore:** reduce entries ([9d60422](https://github.com/Fdawgs/fastify-floc-off/commit/9d60422d0eb67762707da1e2b6ec7572ddb21815))
+* **.vscode/extensions:** remove unmaintained extension ([f3ff5f8](https://github.com/Fdawgs/fastify-floc-off/commit/f3ff5f83e130eb186c2d2aca9b73c6ef0e3a47db))
+* ***.ignore:** add clinicjs directory ([d227d4d](https://github.com/Fdawgs/fastify-floc-off/commit/d227d4de9a3472d4db6aa464fb438dede54bff5a))
+* **LICENSE:** remove trailing whitespace ([5dbd665](https://github.com/Fdawgs/fastify-floc-off/commit/5dbd66578ae468f044833f2fdd0f0a328e0c39b7))
+* prefer object destructuring ([#137](https://github.com/Fdawgs/fastify-floc-off/issues/137)) ([4d4f336](https://github.com/Fdawgs/fastify-floc-off/commit/4d4f3360cfbd51134857f85fb714aa1f0d4de2d0))
+
+
+### Dependencies
+
+* **deps-dev:** bump eslint-plugin-jest from 26.9.0 to 27.0.1 ([#135](https://github.com/Fdawgs/fastify-floc-off/issues/135)) ([34b5458](https://github.com/Fdawgs/fastify-floc-off/commit/34b54587cd6597e66e91c549b8cff96218d3392d))
+* **deps-dev:** bump jest from 28.1.3 to 29.0.1 ([#134](https://github.com/Fdawgs/fastify-floc-off/issues/134)) ([26988f2](https://github.com/Fdawgs/fastify-floc-off/commit/26988f2f93557ba1e8473be29f156ab3eb608462))
+* **deps:** bump dependencies ([904e991](https://github.com/Fdawgs/fastify-floc-off/commit/904e991fc8076d85c61b49735789d58df3d3359a))
+
 ## [2.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.1...v2.0.2) (2022-08-09)
 
 
