@@ -1,6 +1,6 @@
 {
 	"name": "fastify-floc-off",
-	"version": "2.0.3",
+	"version": "2.0.4",
 	"description": "Fastify plugin to opt out of Google's FLoC advertising-surveillance network",
 	"keywords": [
 		"block",
