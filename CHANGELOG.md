@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.4](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.3...v2.0.4) (2022-10-25)
+
+
+### Continuous Integration
+
+* **cd:** remove dev values from `package.json` ([#138](https://github.com/Fdawgs/fastify-floc-off/issues/138)) ([2c7f75c](https://github.com/Fdawgs/fastify-floc-off/commit/2c7f75c854fe6f40e804c91b8904eed1b39fd66d))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([54ce990](https://github.com/Fdawgs/fastify-floc-off/commit/54ce990429fb41146dc89845956f6bc936ec84a5))
+* **deps:** bump fastify-plugin from 4.2.1 to 4.3.0 ([a7ea7a8](https://github.com/Fdawgs/fastify-floc-off/commit/a7ea7a83f384ca9f3e61d5520fe9af49900a19b9))
+
 ## [2.0.3](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.2...v2.0.3) (2022-10-03)
 
 
