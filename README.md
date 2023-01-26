@@ -10,11 +10,7 @@
 
 ## Intro
 
-The `fastify-floc-off` plugin sets the following response header and values to opt-out of Google's FLoC advertising-surveillance network:
-
-```
-Permissions-Policy: interest-cohort=()
-```
+The `fastify-floc-off` plugin adds the "interest-cohort=()" directive to the `Permissions-Policy` response header to opt-out of Google's FLoC advertising-surveillance network. It will create a new header if one does not already exist.
 
 You can read more about the issues surrounding Google's FLoC [on EFF](https://eff.org/deeplinks/2021/03/googles-floc-terrible-idea) and [Plausible Analytics](https://plausible.io/blog/google-floc).
 
