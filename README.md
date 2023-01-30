@@ -14,7 +14,7 @@ The `fastify-floc-off` plugin adds the "interest-cohort=()" directive to the `Pe
 
 You can read more about the issues surrounding Google's FLoC [on EFF](https://eff.org/deeplinks/2021/03/googles-floc-terrible-idea) and [Plausible Analytics](https://plausible.io/blog/google-floc).
 
-[Helmet](https://github.com/helmetjs/helmet) and [fastify-helmet](https://github.com/fastify/fastify-helmet) do not support the `Permissions-Policy` response header setting yet, so this plugin was created out of a need for an easy way to disable/opt-out of Google's FLoC network for systems at [Yeovil District Hospital NHS Foundation Trust](https://yeovilhospital.co.uk/). This ensures patients and staff accessing web applications at the hospital are not subject to Google's unsolicited tracking.
+[Helmet](https://github.com/helmetjs/helmet) and [fastify-helmet](https://github.com/fastify/fastify-helmet) do not support the `Permissions-Policy` response header setting yet, so this plugin was created out of a need for an easy way to disable/opt-out of Google's FLoC network for. This ensures users accessing web applications are not subject to Google's unsolicited tracking.
 
 ## Installation
 
