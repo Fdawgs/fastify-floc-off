@@ -1,5 +1,31 @@
 # Changelog
 
+## [2.0.5](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.4...v2.0.5) (2023-01-31)
+
+
+### Bug Fixes
+
+* **index:** add to permissions-policy header if one already exists ([#144](https://github.com/Fdawgs/fastify-floc-off/issues/144)) ([2b12ab4](https://github.com/Fdawgs/fastify-floc-off/commit/2b12ab448314a7f05b38eb8d6f951e26aaec55db))
+
+
+### Miscellaneous
+
+* **license:** update license year ([b0556c0](https://github.com/Fdawgs/fastify-floc-off/commit/b0556c0073eb052226437ce66b998a53f6501297))
+
+
+### Documentation
+
+* **contributing:** update min node version ([4744d1e](https://github.com/Fdawgs/fastify-floc-off/commit/4744d1e56a5be7d496ed72aae4ccd79c05a4d322))
+* grammar and clarity fixes ([b7273e9](https://github.com/Fdawgs/fastify-floc-off/commit/b7273e9a1398b5a9d5f1ea3335a602a504d5a4f8))
+* **readme:** remove fluff ([06ff83b](https://github.com/Fdawgs/fastify-floc-off/commit/06ff83b2ddb65dcf1e8b0140c244c64238be76df))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([bb5d908](https://github.com/Fdawgs/fastify-floc-off/commit/bb5d908840c85a9633f7005a4e8d00506a2cf3c9))
+* **deps:** bump actions/dependency-review-action from 2 to 3 ([#141](https://github.com/Fdawgs/fastify-floc-off/issues/141)) ([2f401a7](https://github.com/Fdawgs/fastify-floc-off/commit/2f401a7d2fd24e4e4b9e5b1ba9ee3097741c5a19))
+* **deps:** bump fastify-plugin from 4.3.0 to 4.5.0 ([752bde3](https://github.com/Fdawgs/fastify-floc-off/commit/752bde3cf38cf102f992aa2103b3859d24ac4ac9))
+
 ## [2.0.4](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.3...v2.0.4) (2022-10-25)
 
 
