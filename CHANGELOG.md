@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.0.6](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.5...v2.0.6) (2023-02-13)
+
+
+### Miscellaneous
+
+* use sentence case over ap style for titles and headings ([c23fa0d](https://github.com/Fdawgs/fastify-floc-off/commit/c23fa0dc7b577681bf358ea5ce7d309c34fff90f))
+
+
+### Continuous integration
+
+* **cd:** use sentence case for changelog headings ([721b31f](https://github.com/Fdawgs/fastify-floc-off/commit/721b31fbcf3005b7bc9c8271580cc66c6342f7ea))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([49baad0](https://github.com/Fdawgs/fastify-floc-off/commit/49baad07df232821333e5b0055ff99ae83c4d323))
+
+
+### Documentation
+
+* **contributing:** update title style guidance ([9336051](https://github.com/Fdawgs/fastify-floc-off/commit/93360510d762486a39461fd282d625d3ba92b718))
+* **readme:** rename intro to overview ([35da4a0](https://github.com/Fdawgs/fastify-floc-off/commit/35da4a00bfeccb7f5e96e9047b84800f2090f5b6))
+
 ## [2.0.5](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.4...v2.0.5) (2023-01-31)
 
 
