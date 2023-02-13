@@ -1,8 +1,8 @@
 const Fastify = require("fastify");
 const plugin = require(".");
 
-describe("Floc-Off Plugin", () => {
-	describe("Response Headers", () => {
+describe("Floc-Off plugin", () => {
+	describe("Response headers", () => {
 		let server;
 
 		beforeAll(async () => {

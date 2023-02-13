@@ -3,7 +3,7 @@
 ## [2.0.5](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.4...v2.0.5) (2023-01-31)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **index:** add to permissions-policy header if one already exists ([#144](https://github.com/Fdawgs/fastify-floc-off/issues/144)) ([2b12ab4](https://github.com/Fdawgs/fastify-floc-off/commit/2b12ab448314a7f05b38eb8d6f951e26aaec55db))
 
@@ -29,7 +29,7 @@
 ## [2.0.4](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.3...v2.0.4) (2022-10-25)
 
 
-### Continuous Integration
+### Continuous integration
 
 * **cd:** remove dev values from `package.json` ([#138](https://github.com/Fdawgs/fastify-floc-off/issues/138)) ([2c7f75c](https://github.com/Fdawgs/fastify-floc-off/commit/2c7f75c854fe6f40e804c91b8904eed1b39fd66d))
 
@@ -131,7 +131,7 @@
 * use npm install alias ([c52fc0a](https://github.com/Fdawgs/fastify-floc-off/commit/c52fc0ade2fd8db2a4c949f04d5d670abbe8b35c))
 
 
-### Continuous Integration
+### Continuous integration
 
 * add dependency-review job ([14f81fd](https://github.com/Fdawgs/fastify-floc-off/commit/14f81fd52fd2e7cb9db794b167668f9074ba3d17))
 * **automerge:** fix context ([7c3cab1](https://github.com/Fdawgs/fastify-floc-off/commit/7c3cab1a244ca1c1d83b36829e2601f3aa0aa8e9))
@@ -177,7 +177,7 @@
 * **scripts:** use shorter arg aliases; remove debugging args from jest ([ac15f3b](https://github.com/Fdawgs/fastify-floc-off/commit/ac15f3bfe0151234aa3c209729e4b0e7b3451d00))
 
 
-### Continuous Integration
+### Continuous integration
 
 * add job step names, workflow comments, and whitespace ([970f4db](https://github.com/Fdawgs/fastify-floc-off/commit/970f4db7202a8725c120ee8d0aeb9cd2338afff6))
 * **codeql-analysis:** remove unused autobuild step ([3648199](https://github.com/Fdawgs/fastify-floc-off/commit/3648199bc37942745cdda65c11e006c3efb04a96))
@@ -232,7 +232,7 @@
 * **index:** fix `server` jsdoc tag param type ([4e73240](https://github.com/Fdawgs/fastify-floc-off/commit/4e73240dd1588c4e42e5f15c2e4f931cc91eb42a))
 
 
-### Continuous Integration
+### Continuous integration
 
 * **cd:** stop `prepare` script running ([#65](https://github.com/Fdawgs/fastify-floc-off/issues/65)) ([7758b27](https://github.com/Fdawgs/fastify-floc-off/commit/7758b274760e6731bac5c005df1f2885c4014ef3))
 * **ci:** do not run clean-up on draft prs ([cc8d3a0](https://github.com/Fdawgs/fastify-floc-off/commit/cc8d3a00000a1bc2d9c22f70b1f945228d492df7))
@@ -262,7 +262,7 @@
 ### [1.0.3](https://github.com/Fdawgs/fastify-floc-off/compare/v1.0.2...v1.0.3) (2021-10-29)
 
 
-### Continuous Integration
+### Continuous integration
 
 * **automerge:** update location of octokit rest methods ([0e82ead](https://github.com/Fdawgs/fastify-floc-off/commit/0e82ead92e0dd6f2f87e2ab545a4cd099fc14516))
 * **ci:** revert to workflow-run-clean-action from github concurrency ([2aa77ca](https://github.com/Fdawgs/fastify-floc-off/commit/2aa77ca05c4752b0010f77beb3a895aec5608d1e))
@@ -318,7 +318,7 @@
 * **workflows:** remove `stale.yml` ([5c66306](https://github.com/Fdawgs/fastify-floc-off/commit/5c66306151ce5d6b21ccccfd59f7efae4c073342))
 
 
-### Continuous Integration
+### Continuous integration
 
 * **cd:** move perf optimizations and refactoring into same section ([256e987](https://github.com/Fdawgs/fastify-floc-off/commit/256e98760fa071f4919bb7458bf2bb6d79bd426b))
 * **ci:** replace workflow-run-cleanup-action with github concurrency ([#36](https://github.com/Fdawgs/fastify-floc-off/issues/36)) ([ae97274](https://github.com/Fdawgs/fastify-floc-off/commit/ae9727410e4f60bded6ffb2f413fb4fcae22d6fd))
