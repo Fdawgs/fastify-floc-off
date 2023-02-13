@@ -26,7 +26,7 @@ npm i fastify-floc-off
 
 For Fastify v3.x support, use `fastify-floc-off@1.0.7`.
 
-## Example Usage
+## Example usage
 
 ```js
 const Fastify = require("fastify");
