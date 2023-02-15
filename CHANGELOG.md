@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.0](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.6...v2.1.0) (2023-02-15)
+
+
+### Features
+
+* add nodenext compatiblity ([0480910](https://github.com/Fdawgs/fastify-floc-off/commit/0480910a632a5865d6b4f63ecbef63f04c999369))
+
+
+### Documentation
+
+* **readme:** add acknowledgements section ([ab27d82](https://github.com/Fdawgs/fastify-floc-off/commit/ab27d827c0e01708a9a6cc1c8ca9dc7562d887e3))
+
 ## [2.0.6](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.5...v2.0.6) (2023-02-13)
 
 
