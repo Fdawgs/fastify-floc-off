@@ -13,6 +13,7 @@
 		"tracking"
 	],
 	"main": "src/index.js",
+	"types": "types/index.d.ts",
 	"repository": "git+https://github.com/Fdawgs/fastify-floc-off.git",
 	"homepage": "https://github.com/Fdawgs/fastify-floc-off",
 	"bugs": {

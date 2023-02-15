@@ -6,8 +6,8 @@ const fp = require("fastify-plugin");
  * to the Permissions-Policy response header.
  * @param {object} server - Fastify instance.
  */
-async function plugin(server) {
-	server.addHook("onRequest", async (req, res) => {
+async function fastifyFlocOff(server) {
+	server.addHook("onRequest", async (_req, res) => {
 		const header = res.getHeader("Permissions-Policy");
 
 		// Header can be returned as array: https://nodejs.org/docs/latest/api/http.html#requestsetheadername-value
@@ -25,4 +25,9 @@ async function plugin(server) {
 	});
 }
 
-module.exports = fp(plugin, { fastify: "4.x", name: "fastify-floc-off" });
+module.exports = fp(fastifyFlocOff, {
+	fastify: "4.x",
+	name: "fastify-floc-off",
+});
+module.exports.default = fastifyFlocOff;
+module.exports.fastifyFlocOff = fastifyFlocOff;
