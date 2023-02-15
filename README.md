@@ -49,6 +49,10 @@ Contributions are welcome, and any help is greatly appreciated!
 See [the contributing guide](./CONTRIBUTING.md) for details on how to get started.
 Please adhere to this project's [Code of Conduct](./CODE_OF_CONDUCT.md) when contributing.
 
+## Acknowledgements
+
+-   [**Uzlopak**](https://github.com/uzlopak) - TypeScript support
+
 ## License
 
 `fastify-floc-off` is licensed under the [MIT](./LICENSE) license.
