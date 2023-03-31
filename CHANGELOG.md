@@ -1,5 +1,36 @@
 # Changelog
 
+## [2.1.1](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.0...v2.1.1) (2023-03-31)
+
+
+### Miscellaneous
+
+* ignore bun lockfile ([#155](https://github.com/Fdawgs/fastify-floc-off/issues/155)) ([d8b8ecc](https://github.com/Fdawgs/fastify-floc-off/commit/d8b8eccefb5d52213f6bf5b1e45391019c6058d2))
+* **package:** add funding url ([2c3a500](https://github.com/Fdawgs/fastify-floc-off/commit/2c3a500fde49defe14e4d8f021f56dfc2bf885b6))
+* **scripts:** add eslint rule file ([408b031](https://github.com/Fdawgs/fastify-floc-off/commit/408b0310bc90ac12e4ee08dafe96f00efa66a6fd))
+* **scripts:** remove redundant export ([03d8415](https://github.com/Fdawgs/fastify-floc-off/commit/03d8415cd407b2e5d6cc05a23bf47fbaa2bf3489))
+* **scripts:** sort eslint comments alphabetically ([f9a0a93](https://github.com/Fdawgs/fastify-floc-off/commit/f9a0a93d16a550c051347598ec8d0dd3a9d72330))
+* **scripts:** use js script to check licenses ([#156](https://github.com/Fdawgs/fastify-floc-off/issues/156)) ([f3a63f2](https://github.com/Fdawgs/fastify-floc-off/commit/f3a63f2e0c6ee6026c34d28b5571269358937be1))
+
+
+### Documentation
+
+* **changelog:** spelling mistake ([189a192](https://github.com/Fdawgs/fastify-floc-off/commit/189a1924b96ffdec8155c3c9e4ee9b4144a3e09d))
+* **contributing:** add link to conventional config ([#158](https://github.com/Fdawgs/fastify-floc-off/issues/158)) ([56bd5bc](https://github.com/Fdawgs/fastify-floc-off/commit/56bd5bc780d6f65ae93f5428a30492f223205bf0))
+
+
+### Continuous integration
+
+* **dependabot:** change commit message prefix for gh actions to `ci` ([#157](https://github.com/Fdawgs/fastify-floc-off/issues/157)) ([676b01a](https://github.com/Fdawgs/fastify-floc-off/commit/676b01ad28b7d933b7a3f149a3f82e9bf8a64e4c))
+* **deps:** bump coverallsapp/github-action from 1.2.4 to 2.0.0 ([#159](https://github.com/Fdawgs/fastify-floc-off/issues/159)) ([faff339](https://github.com/Fdawgs/fastify-floc-off/commit/faff33971bc5484dfe8d7a90d283c64f7b63e85e))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([2e011e6](https://github.com/Fdawgs/fastify-floc-off/commit/2e011e60a108fc4324e8da06766e6784bfb458ad))
+* **deps:** bump coverallsapp/github-action from 1.1.3 to 1.2.3 ([#153](https://github.com/Fdawgs/fastify-floc-off/issues/153)) ([e1496f1](https://github.com/Fdawgs/fastify-floc-off/commit/e1496f14b4ae196320b1f85004aa68839e95830f))
+* **deps:** bump coverallsapp/github-action from 1.2.3 to 1.2.4 ([#154](https://github.com/Fdawgs/fastify-floc-off/issues/154)) ([b0c0417](https://github.com/Fdawgs/fastify-floc-off/commit/b0c041740a8ca1749dbd901070dc3bb9cd2286ad))
+
 ## [2.1.0](https://github.com/Fdawgs/fastify-floc-off/compare/v2.0.6...v2.1.0) (2023-02-15)
 
 ### Features
