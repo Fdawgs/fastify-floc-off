@@ -46,7 +46,7 @@ describe("Floc-Off plugin", () => {
 			await server.close();
 		});
 
-		test("Should add to existing Permissions-Policy header", async () => {
+		it("Adds to an existing Permissions-Policy header", async () => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/exist",
@@ -59,7 +59,7 @@ describe("Floc-Off plugin", () => {
 			expect(response.statusCode).toBe(200);
 		});
 
-		test("Should add a new Permissions-Policy header to existing array", async () => {
+		it("Adds a new Permissions-Policy header to existing array", async () => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/existarray",
@@ -76,7 +76,7 @@ describe("Floc-Off plugin", () => {
 			expect(response.statusCode).toBe(200);
 		});
 
-		test("Should set Permissions-Policy header if not found", async () => {
+		it("Sets Permissions-Policy header if not found", async () => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/noexist",
