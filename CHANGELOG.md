@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.1.2](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.1...v2.1.2) (2023-04-24)
+
+
+### Miscellaneous
+
+* **.prettierrc:** enable `arrowParens` option ([#161](https://github.com/Fdawgs/fastify-floc-off/issues/161)) ([897ceea](https://github.com/Fdawgs/fastify-floc-off/commit/897ceea367263a8b6b2347c526dd9d93c831f854))
+
+
+### Dependencies
+
+* **deps-dev:** bump eslint-plugin-jsdoc from 40.3.0 to 43.0.7 ([#164](https://github.com/Fdawgs/fastify-floc-off/issues/164)) ([de98fb9](https://github.com/Fdawgs/fastify-floc-off/commit/de98fb90c4268a4ad73786ba44642ff7ac6d220f))
+
+
+### Continuous integration
+
+* **cd:** publish to npm with provenance ([#166](https://github.com/Fdawgs/fastify-floc-off/issues/166)) ([d3d8756](https://github.com/Fdawgs/fastify-floc-off/commit/d3d87567091a9c58bb31d423aaa992ecddf8988a))
+* **ci:** add node 20 to test matrix ([#165](https://github.com/Fdawgs/fastify-floc-off/issues/165)) ([7a59aeb](https://github.com/Fdawgs/fastify-floc-off/commit/7a59aebb8f761bb6ea8956a513b1ef8acbc7df03))
+* **deps:** bump coverallsapp/github-action from 2.0.0 to 2.1.2 ([#163](https://github.com/Fdawgs/fastify-floc-off/issues/163)) ([b00ed0c](https://github.com/Fdawgs/fastify-floc-off/commit/b00ed0c86e210b5e9c18d6c7b959541eda8677eb))
+
 ## [2.1.1](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.0...v2.1.1) (2023-03-31)
 
 
