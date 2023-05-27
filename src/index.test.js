@@ -52,7 +52,7 @@ describe("Floc-Off plugin", () => {
 				url: "/exist",
 			});
 
-			expect(response.payload).toBe("ok");
+			expect(response.body).toBe("ok");
 			expect(response.headers).toMatchObject({
 				"permissions-policy": "camera=(), interest-cohort=()",
 			});
@@ -65,7 +65,7 @@ describe("Floc-Off plugin", () => {
 				url: "/existarray",
 			});
 
-			expect(response.payload).toBe("ok");
+			expect(response.body).toBe("ok");
 			expect(response.headers).toMatchObject({
 				"permissions-policy": [
 					"camera=()",
@@ -82,7 +82,7 @@ describe("Floc-Off plugin", () => {
 				url: "/noexist",
 			});
 
-			expect(response.payload).toBe("ok");
+			expect(response.body).toBe("ok");
 			expect(response.headers).toMatchObject({
 				"permissions-policy": "interest-cohort=()",
 			});
