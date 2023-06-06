@@ -4,7 +4,7 @@ const fp = require("fastify-plugin");
  * @description Simple plugin that adds an `onRequest` hook to opt out of Google's FLoC
  * advertising-surveillance network by setting/adding the "interest-cohort=()" directive
  * to the Permissions-Policy response header.
- * @param {object} server - Fastify instance.
+ * @param {import("fastify").FastifyInstance} server - Fastify instance.
  */
 async function fastifyFlocOff(server) {
 	server.addHook("onRequest", async (_req, res) => {
