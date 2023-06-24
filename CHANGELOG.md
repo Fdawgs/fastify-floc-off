@@ -1,5 +1,33 @@
 # Changelog
 
+## [2.1.3](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.2...v2.1.3) (2023-06-24)
+
+
+### Continuous integration
+
+* **deps:** bump coverallsapp/github-action from 2.1.2 to 2.2.0 ([#175](https://github.com/Fdawgs/fastify-floc-off/issues/175)) ([b29327c](https://github.com/Fdawgs/fastify-floc-off/commit/b29327cb411ced9d9d5c47ca88e16852977cab80))
+
+
+### Miscellaneous
+
+* **.eslintrc:** enable additional jest plugin rules ([886a714](https://github.com/Fdawgs/fastify-floc-off/commit/886a714dc8ea7f284b1ad448754f4e967134eec7))
+* **.eslintrc:** enable additional jsdoc plugin rules ([15ac3cd](https://github.com/Fdawgs/fastify-floc-off/commit/15ac3cdd10d27af5d56fd6d4f3881a272bd31dad))
+* **.eslintrc:** only use jest plugin to lint test-related files ([280f8f9](https://github.com/Fdawgs/fastify-floc-off/commit/280f8f96617cf139456777ba7a9779d1f12c28d2))
+* **.eslintrc:** update ecmascript version ([f5f7aa4](https://github.com/Fdawgs/fastify-floc-off/commit/f5f7aa4c6f5a3763792ee468d7fc110b1304e64b))
+* import fastify type for server jsdoc param ([c8d3d1d](https://github.com/Fdawgs/fastify-floc-off/commit/c8d3d1dc05828ac9e031bb63e39276fc5d01656e))
+* **package:** remove global jest mock config values ([aa9c6fa](https://github.com/Fdawgs/fastify-floc-off/commit/aa9c6faf015695f6a8a0e63585a1be79f7888802))
+* **package:** set jest coverage threshold ([728eefd](https://github.com/Fdawgs/fastify-floc-off/commit/728eefdeb400962b9e22a45329cf542a50a55518))
+* **scripts/license-checker:** resolve eslint jsdoc warning ([#167](https://github.com/Fdawgs/fastify-floc-off/issues/167)) ([952236a](https://github.com/Fdawgs/fastify-floc-off/commit/952236a6e58623531ccac2769ecd64e2edbad765))
+* **scripts:** fix inline comment style ([0b69a96](https://github.com/Fdawgs/fastify-floc-off/commit/0b69a96bc3767620ed0a66da8d5761c2a4e5a3a4))
+* use nouns for leading word in function description tags ([#169](https://github.com/Fdawgs/fastify-floc-off/issues/169)) ([20b642f](https://github.com/Fdawgs/fastify-floc-off/commit/20b642fec4bd3ac9a231d703f633962599a507c7))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([#171](https://github.com/Fdawgs/fastify-floc-off/issues/171)) ([6b667f7](https://github.com/Fdawgs/fastify-floc-off/commit/6b667f7accbe992ec43e1782e22751571b3c1c42))
+* **deps-dev:** bump dev dependencies ([#176](https://github.com/Fdawgs/fastify-floc-off/issues/176)) ([c1ea98e](https://github.com/Fdawgs/fastify-floc-off/commit/c1ea98e24f324c5898dbde62216bf16bb4470db0))
+* **deps-dev:** bump eslint-plugin-jsdoc from 44.2.7 to 46.1.0 ([#172](https://github.com/Fdawgs/fastify-floc-off/issues/172)) ([5c7418a](https://github.com/Fdawgs/fastify-floc-off/commit/5c7418a4fdc15823b5820a82f6b0f913500d6e30))
+
 ## [2.1.2](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.1...v2.1.2) (2023-04-24)
 
 
