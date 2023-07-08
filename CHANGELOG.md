@@ -1,5 +1,23 @@
 # Changelog
 
+## [2.1.4](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.3...v2.1.4) (2023-07-08)
+
+
+### Miscellaneous
+
+* **.eslintrc:** sort `extends` array ([ca12e6b](https://github.com/Fdawgs/fastify-floc-off/commit/ca12e6b8c657465746c79945adf35cfb7222a1eb))
+
+
+### Dependencies
+
+* **deps-dev:** add eslint-plugin-regexp ([fe91de2](https://github.com/Fdawgs/fastify-floc-off/commit/fe91de2f3806c5309558e2cbd55f319e3e634fcd))
+* **deps-dev:** bump dev dependencies ([936db39](https://github.com/Fdawgs/fastify-floc-off/commit/936db39574a0bc3e621013d4007dbb315e0d31d2))
+
+
+### Bug fixes
+
+* add missing strict mode directives ([#180](https://github.com/Fdawgs/fastify-floc-off/issues/180)) ([c91d11b](https://github.com/Fdawgs/fastify-floc-off/commit/c91d11bc85fd1a6a91b74d9f4432dadff944c32f))
+
 ## [2.1.3](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.2...v2.1.3) (2023-06-24)
 
 
