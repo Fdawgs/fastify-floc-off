@@ -8,35 +8,35 @@ describe("Floc-Off plugin", () => {
 		let server;
 
 		beforeAll(async () => {
-			server = Fastify();
+			server = Fastify({ pluginTimeout: 0 });
 			server
 				.register(async (existingHeaderContext) => {
 					existingHeaderContext
-						.addHook("onRequest", async (req, res) => {
+						.addHook("onRequest", async (_req, res) => {
 							res.header("Permissions-Policy", "camera=()");
 						})
 						.register(plugin)
-						.get("/exist", (req, res) => {
+						.get("/exist", (_req, res) => {
 							res.send("ok");
 						});
 				})
 				.register(async (existingHeaderArrayContext) => {
 					existingHeaderArrayContext
-						.addHook("onRequest", async (req, res) => {
+						.addHook("onRequest", async (_req, res) => {
 							res.header("Permissions-Policy", [
 								"camera=()",
 								"microphone=()",
 							]);
 						})
 						.register(plugin)
-						.get("/existarray", (req, res) => {
+						.get("/existarray", (_req, res) => {
 							res.send("ok");
 						});
 				})
 				.register(async (noExistingHeaderContext) => {
 					noExistingHeaderContext
 						.register(plugin)
-						.get("/noexist", (req, res) => {
+						.get("/noexist", (_req, res) => {
 							res.send("ok");
 						});
 				});
