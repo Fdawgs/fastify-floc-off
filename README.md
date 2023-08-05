@@ -6,15 +6,17 @@
 [![Coverage Status](https://coveralls.io/repos/github/Fdawgs/fastify-floc-off/badge.svg?branch=main)](https://coveralls.io/github/Fdawgs/fastify-floc-off?branch=main)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
-> Fastify plugin to opt-out of Google's FLoC advertising-surveillance network
+> Fastify plugin to opt-out of Google's Topics advertising-surveillance API
 
 ## Overview
 
-The `fastify-floc-off` plugin adds the "interest-cohort=()" directive to the `Permissions-Policy` response header to opt-out of Google's FLoC advertising-surveillance network. It will create a new header if one does not already exist.
+The `fastify-floc-off` plugin adds the "interest-cohort=()" directive to the `Permissions-Policy` response header to opt-out of Google's Topics advertising-surveillance API. It will create a new header if one does not already exist.
 
-You can read more about the issues surrounding Google's FLoC [on EFF](https://eff.org/deeplinks/2021/03/googles-floc-terrible-idea) and [Plausible Analytics](https://plausible.io/blog/google-floc).
+This was originally created to opt-out of Google's FLoC (Federated Learning of Cohorts) but has since been replaced with their [Topics API](https://github.com/patcg-individual-drafts/topics), which has the same privacy issues.
 
-[Helmet](https://github.com/helmetjs/helmet) and [fastify-helmet](https://github.com/fastify/fastify-helmet) do not support the `Permissions-Policy` response header setting yet, so this plugin was created out of a need for an easy way to disable/opt-out of Google's FLoC network for. This ensures users accessing web applications are not subject to Google's unsolicited tracking.
+You can read more about the issues that surround Google's FLoC [on EFF](https://eff.org/deeplinks/2021/03/googles-floc-terrible-idea) and [Plausible Analytics](https://plausible.io/blog/google-floc).
+
+[Helmet](https://github.com/helmetjs/helmet) and [fastify-helmet](https://github.com/fastify/fastify-helmet) do not support the `Permissions-Policy` response header setting yet, so this plugin was created out of a need for an easy way to disable/opt-out of Google's Topics API. This ensures users accessing web applications are not subject to Google's unsolicited tracking.
 
 ## Installation
 
