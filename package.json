@@ -1,15 +1,17 @@
 {
 	"name": "fastify-floc-off",
 	"version": "2.1.4",
-	"description": "Fastify plugin to opt out of Google's FLoC advertising-surveillance network",
+	"description": "Fastify plugin to opt out of Google's Topics advertising-surveillance API",
 	"keywords": [
 		"block",
 		"fastify",
 		"floc",
+		"google",
 		"headers",
 		"plugin",
 		"opt out",
 		"opt-out",
+		"topics",
 		"tracking"
 	],
 	"main": "src/index.js",
