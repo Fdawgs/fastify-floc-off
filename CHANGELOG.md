@@ -1,5 +1,41 @@
 # Changelog
 
+## [2.1.5](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.4...v2.1.5) (2023-08-16)
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([cbf371b](https://github.com/Fdawgs/fastify-floc-off/commit/cbf371b2ee235f8d0ce7b8e0298aec6c65b888c8))
+* **deps-dev:** bump eslint-config-prettier from 8.10.0 to 9.0.0 ([#187](https://github.com/Fdawgs/fastify-floc-off/issues/187)) ([7072c0c](https://github.com/Fdawgs/fastify-floc-off/commit/7072c0c4bd168ae7210311fc058fbd6c4aa99c23))
+* **deps:** bump fastify-plugin from 4.5.0 to 4.5.1 ([cf5ea41](https://github.com/Fdawgs/fastify-floc-off/commit/cf5ea41661da768d2501a544fb8e8958db8ed66a))
+
+
+### Miscellaneous
+
+* **.eslintrc:** error on google closure jsdoc syntax ([24e4486](https://github.com/Fdawgs/fastify-floc-off/commit/24e44868357e339ef87ff5e54bbc491a9aca4d7e))
+* add jsconfig; type check js ([#189](https://github.com/Fdawgs/fastify-floc-off/issues/189)) ([7e7d164](https://github.com/Fdawgs/fastify-floc-off/commit/7e7d164d0293c152c9946b91a804fdaa514e2287))
+* **index:** add whitespace between import and comment ([0a53983](https://github.com/Fdawgs/fastify-floc-off/commit/0a53983d8a8feb636deec36d1d7da2db91302e60))
+* **jsconfig:** add target ([cd68ea5](https://github.com/Fdawgs/fastify-floc-off/commit/cd68ea5b46389e0699f903e75861c61aea83f239))
+* **package:** add google's topics api to keywords ([3b9b742](https://github.com/Fdawgs/fastify-floc-off/commit/3b9b742cdd9649d376ac743284e056eb3a7fd2ac))
+* rename `lint:prettier` scripts to reflect their function ([#183](https://github.com/Fdawgs/fastify-floc-off/issues/183)) ([e54a5e7](https://github.com/Fdawgs/fastify-floc-off/commit/e54a5e76426fb9b54554b4632b5d5f68195069ba))
+* **scripts/license-checker:** use `console.error()` to log failures ([0e02ff4](https://github.com/Fdawgs/fastify-floc-off/commit/0e02ff48e6e37c417dd17ae9ed46b910759a7137))
+
+
+### Continuous integration
+
+* **ci:** error on new jest snapshot ([2466487](https://github.com/Fdawgs/fastify-floc-off/commit/24664875de80d117158e8178a5b27b5279c4349f))
+* **deps:** bump coverallsapp/github-action from 2.2.0 to 2.2.1 ([#185](https://github.com/Fdawgs/fastify-floc-off/issues/185)) ([f7acf13](https://github.com/Fdawgs/fastify-floc-off/commit/f7acf1385e06b9b14fdb2c240e3ab637d3b89b23))
+
+
+### Improvements
+
+* **scripts/license-checker:** deconstruct imports ([d23b1a7](https://github.com/Fdawgs/fastify-floc-off/commit/d23b1a7e4f5e6c9d82ced58032bf970de236bbfd))
+
+
+### Documentation
+
+* **readme:** add mention of google's topics api ([2f27618](https://github.com/Fdawgs/fastify-floc-off/commit/2f27618ae29517ce1d5edd8ba704309e9adaee54))
+
 ## [2.1.4](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.3...v2.1.4) (2023-07-08)
 
 
