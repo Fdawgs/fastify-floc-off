@@ -13,7 +13,10 @@ async function fastifyFlocOff(server) {
 	server.addHook("onRequest", async (_req, res) => {
 		const header = res.getHeader("Permissions-Policy");
 
-		// Header can be returned as array: https://nodejs.org/docs/latest/api/http.html#requestsetheadername-value
+		/**
+		 * Headers can be returned as an array.
+		 * @see {@link https://nodejs.org/docs/latest/api/http.html#requestsetheadername-value | Node.js HTTP API}
+		 */
 		if (Array.isArray(header)) {
 			header.push("interest-cohort=()");
 			res.header("Permissions-Policy", header);
