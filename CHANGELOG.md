@@ -1,5 +1,39 @@
 # Changelog
 
+## [2.1.6](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.5...v2.1.6) (2023-09-23)
+
+
+### Miscellaneous
+
+* **.gitattributes:** auto lf eol all files ([1934a44](https://github.com/Fdawgs/fastify-floc-off/commit/1934a44916f2a3914dc7d51880a04f15b8fab73d))
+* add missing `.gitattributes` file ([80198d7](https://github.com/Fdawgs/fastify-floc-off/commit/80198d7759d378a2d93d880a9e083bbc96ec8aff))
+* change comment blocks with one line into single block ([7f062d5](https://github.com/Fdawgs/fastify-floc-off/commit/7f062d5d18fdf40c5981d7027c75066f011206d5))
+* **eslintrc:** bump ecma version to 2023 ([8c9e76d](https://github.com/Fdawgs/fastify-floc-off/commit/8c9e76d1cf5eb543c0a27c5c62970ca31b1477bf))
+* **jsconfig:** set module to nodenext ([d7bf975](https://github.com/Fdawgs/fastify-floc-off/commit/d7bf97553628c93096bb5f5f99dc6c4ea1f4f3a8))
+* **jsconfig:** target es2022 ([395c27f](https://github.com/Fdawgs/fastify-floc-off/commit/395c27f64408d6515a466bb757ba8fbbb7cfdf4e))
+* **package:** explicitly declare js module type ([d84dceb](https://github.com/Fdawgs/fastify-floc-off/commit/d84dcebf5ae8ab33d98cffc1661cd525ec8ca3c2))
+* **scripts/license-checker:** declare `copyLeftLicenses` type ([4c16e57](https://github.com/Fdawgs/fastify-floc-off/commit/4c16e57ee5b3c290ca78280b4f7dcc01aa854da9))
+* **scripts/license-checker:** destruct upath module import ([#194](https://github.com/Fdawgs/fastify-floc-off/issues/194)) ([7e7746c](https://github.com/Fdawgs/fastify-floc-off/commit/7e7746c04c56c94b861fb00628396d20a01fe9a5))
+* **scripts/license-checker:** ignore invalid ts error ([dc53501](https://github.com/Fdawgs/fastify-floc-off/commit/dc5350105624a9c39b81e7527e99912f76fd7c2b))
+* use `[@see](https://github.com/see)` jsdoc tag for inline comment links ([538f3a1](https://github.com/Fdawgs/fastify-floc-off/commit/538f3a10c13c94d644fc7fed1fa69aaef57b4305))
+
+
+### Continuous integration
+
+* **dependabot:** group dependabot updates ([7dc8559](https://github.com/Fdawgs/fastify-floc-off/commit/7dc8559e650dd25d3ca578c671591f6b94f16199))
+* **deps:** bump actions/checkout from 3 to 4 ([#197](https://github.com/Fdawgs/fastify-floc-off/issues/197)) ([86ca5db](https://github.com/Fdawgs/fastify-floc-off/commit/86ca5db2a6cf1a28816c0de9d2cf7c73348d57da))
+* **deps:** bump coverallsapp/github-action from 2.2.1 to 2.2.3 ([#196](https://github.com/Fdawgs/fastify-floc-off/issues/196)) ([64a2079](https://github.com/Fdawgs/fastify-floc-off/commit/64a2079d7df50834ec8bd30efee3a8480a2fb53a))
+
+
+### Improvements
+
+* use `node:` prefix to bypass require.cache call for builtins ([1d3f738](https://github.com/Fdawgs/fastify-floc-off/commit/1d3f73805117559b494ffe72f44d738c91adfaa2))
+
+
+### Documentation
+
+* **readme:** update acknowledgements ([6a3a91f](https://github.com/Fdawgs/fastify-floc-off/commit/6a3a91fb1af129d7e3dd1282144158916fbcbad6))
+
 ## [2.1.5](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.4...v2.1.5) (2023-08-16)
 
 
