@@ -37,7 +37,7 @@ const flocOff = require("fastify-floc-off");
 const server = Fastify();
 server.register(flocOff);
 
-server.get("/", (req, res) => {
+server.get("/", (_req, res) => {
 	res.send("ok");
 });
 
@@ -53,7 +53,7 @@ Please adhere to this project's [Code of Conduct](./CODE_OF_CONDUCT.md) when con
 
 ## Acknowledgements
 
--   [**Uzlopak**](https://github.com/uzlopak) - TypeScript support
+-   [**Aras Abbasi**](https://github.com/uzlopak) - TypeScript support
 
 ## License
 
