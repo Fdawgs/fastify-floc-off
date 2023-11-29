@@ -45,9 +45,7 @@ describe("Floc-Off plugin", () => {
 			await server.ready();
 		});
 
-		afterAll(async () => {
-			await server.close();
-		});
+		afterAll(async () => server.close());
 
 		it("Adds to an existing Permissions-Policy header", async () => {
 			const response = await server.inject({
