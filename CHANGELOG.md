@@ -1,5 +1,36 @@
 # Changelog
 
+## [2.1.7](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.6...v2.1.7) (2023-11-29)
+
+
+### Dependencies
+
+* **deps-dev:** add eslint-community/eslint-plugin-eslint-comments ([7f6ccfb](https://github.com/Fdawgs/fastify-floc-off/commit/7f6ccfb14c0f7c046ac9a79791935e7150827a1c))
+* **deps-dev:** bump dev dependencies ([2edfd34](https://github.com/Fdawgs/fastify-floc-off/commit/2edfd34c31db463579ee1cd99706643b8f6d3057))
+* **deps-dev:** bump the commitlint group with 2 updates ([#202](https://github.com/Fdawgs/fastify-floc-off/issues/202)) ([e420770](https://github.com/Fdawgs/fastify-floc-off/commit/e420770284252539b47bab9a616a5340ba1c90d4))
+* **deps-dev:** bump the eslint group with 1 update ([#203](https://github.com/Fdawgs/fastify-floc-off/issues/203)) ([7f795f2](https://github.com/Fdawgs/fastify-floc-off/commit/7f795f280d0f3e395b0fb81bc2601555a79fe41f))
+* **deps-dev:** remove broken eslint-plugin-security-node ([6c605fe](https://github.com/Fdawgs/fastify-floc-off/commit/6c605fe4eb5cacb812a6be7c268c3cd10666c407))
+
+
+### Miscellaneous
+
+* **.vscode:** add github-markdown-preview to recommended extension ([45d1af1](https://github.com/Fdawgs/fastify-floc-off/commit/45d1af140c0ff9c51bf7eb292cfebef0600c1449))
+* **.vscode:** add gitlens to recommended extensions ([d26b303](https://github.com/Fdawgs/fastify-floc-off/commit/d26b303caf3b82f62d36a0eefe754dfad1b1260f))
+* **jsconfig:** use es2022 lib ([81b0d89](https://github.com/Fdawgs/fastify-floc-off/commit/81b0d89a564d502579011349cf11c2493134d4a7))
+* **scripts/license-checker:** update link to deprecated list ([8e6d41d](https://github.com/Fdawgs/fastify-floc-off/commit/8e6d41d90b23c06c4da9e3413ded801b4f4f02dc))
+
+
+### Continuous integration
+
+* **deps:** bump actions/github-script from 6 to 7 ([#204](https://github.com/Fdawgs/fastify-floc-off/issues/204)) ([acf7aea](https://github.com/Fdawgs/fastify-floc-off/commit/acf7aea65bf1e9a0c5642f81336c68b3642d8447))
+* **deps:** bump actions/setup-node from 3 to 4 ([#201](https://github.com/Fdawgs/fastify-floc-off/issues/201)) ([d71ccd8](https://github.com/Fdawgs/fastify-floc-off/commit/d71ccd8f8f61615b83917c3e9c6fe6f9b3a34c10))
+
+
+### Documentation
+
+* **readme:** fix broken ci badge link ([46433d8](https://github.com/Fdawgs/fastify-floc-off/commit/46433d8b69505f742ea892487675ebd06f4abb81))
+* **readme:** use full cjs for example ([9f4eb87](https://github.com/Fdawgs/fastify-floc-off/commit/9f4eb87452efc6f3647dc25dfac584221fa2a1df))
+
 ## [2.1.6](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.5...v2.1.6) (2023-09-23)
 
 
