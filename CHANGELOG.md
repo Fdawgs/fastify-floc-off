@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.8](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.7...v2.1.8) (2023-12-02)
+
+
+### Continuous integration
+
+* **dependabot:** ignore release-please-action major updates ([943e904](https://github.com/Fdawgs/fastify-floc-off/commit/943e904a626d060503174c6f85535b530e7ad5c8))
+
 ## [2.1.7](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.6...v2.1.7) (2023-11-29)
 
 
