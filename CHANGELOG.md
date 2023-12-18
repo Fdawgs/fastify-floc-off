@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.1.8](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.7...v2.1.8) (2023-12-18)
+
+
+### Miscellaneous
+
+* jsdoc comments must be complete sentences ([4803a67](https://github.com/Fdawgs/fastify-floc-off/commit/4803a6705f87d3d5f4ae81fbd37b9c4ceb659b14))
+
+
+### Continuous integration
+
+* **dependabot:** ignore release-please-action major updates ([d1b1998](https://github.com/Fdawgs/fastify-floc-off/commit/d1b1998dc7b42b21593a789c81da93191275a8c9))
+* **deps:** bump actions/upload-artifact from 3 to 4 ([#210](https://github.com/Fdawgs/fastify-floc-off/issues/210)) ([7661586](https://github.com/Fdawgs/fastify-floc-off/commit/766158690a97f6147a606a6667c111e00b397f60))
+* **deps:** bump github/codeql-action from 2 to 3 ([#209](https://github.com/Fdawgs/fastify-floc-off/issues/209)) ([9819999](https://github.com/Fdawgs/fastify-floc-off/commit/9819999a590fdd4f8d053e1c0f7701a6389b9c2c))
+
 ## [2.1.7](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.6...v2.1.7) (2023-11-29)
 
 
