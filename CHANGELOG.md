@@ -1,5 +1,34 @@
 # Changelog
 
+## [2.1.8](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.7...v2.1.8) (2024-01-07)
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([ccc0e58](https://github.com/Fdawgs/fastify-floc-off/commit/ccc0e58a7d090f26eebcd019f8c68cac57acc3bd))
+
+
+### Miscellaneous
+
+* jsdoc comments must be complete sentences ([4803a67](https://github.com/Fdawgs/fastify-floc-off/commit/4803a6705f87d3d5f4ae81fbd37b9c4ceb659b14))
+* **license:** update license year ([cc74fc8](https://github.com/Fdawgs/fastify-floc-off/commit/cc74fc8130242edbb2c385ac49f2b879cd3edf1b))
+* **package:** add `lint:fix` script ([27773f0](https://github.com/Fdawgs/fastify-floc-off/commit/27773f01ea6cdab1a85f896a3de277279d19e8c3))
+* **package:** run `lint:prettier` in `test` script ([29ca973](https://github.com/Fdawgs/fastify-floc-off/commit/29ca973be031ce0b94979c91b2f2a0d490ae3152))
+
+
+### Continuous integration
+
+* **cd:** publish to github packages as well as npm ([ac794e9](https://github.com/Fdawgs/fastify-floc-off/commit/ac794e99b87682d74fc719db0132b7fe6214dd85))
+* **dependabot:** ignore release-please-action major updates ([d1b1998](https://github.com/Fdawgs/fastify-floc-off/commit/d1b1998dc7b42b21593a789c81da93191275a8c9))
+* **deps:** bump actions/upload-artifact from 3 to 4 ([#210](https://github.com/Fdawgs/fastify-floc-off/issues/210)) ([7661586](https://github.com/Fdawgs/fastify-floc-off/commit/766158690a97f6147a606a6667c111e00b397f60))
+* **deps:** bump github/codeql-action from 2 to 3 ([#209](https://github.com/Fdawgs/fastify-floc-off/issues/209)) ([9819999](https://github.com/Fdawgs/fastify-floc-off/commit/9819999a590fdd4f8d053e1c0f7701a6389b9c2c))
+
+
+### Documentation
+
+* **readme:** update links ([f9ebbc6](https://github.com/Fdawgs/fastify-floc-off/commit/f9ebbc68637c4bfa68c9e2e9c7ac2dfc1344aea4))
+* use shared files from `fdawgs/.github` ([e8d5b63](https://github.com/Fdawgs/fastify-floc-off/commit/e8d5b63fdb2c4bdc715710a31c3950aedfd342f5))
+
 ## [2.1.7](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.6...v2.1.7) (2023-11-29)
 
 
