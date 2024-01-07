@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.9](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.8...v2.1.9) (2024-01-07)
+
+
+### Miscellaneous
+
+* **.github:** use shared files from `fdawgs/.github` ([6091b36](https://github.com/Fdawgs/fastify-floc-off/commit/6091b36b650c0938f545d638b7c07f48a9de0714))
+
+
+### Continuous integration
+
+* **cd:** grant write permissions to packages ([b8e4335](https://github.com/Fdawgs/fastify-floc-off/commit/b8e433533bd3e91d36ca58ff38ca6f5449233324))
+
 ## [2.1.8](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.7...v2.1.8) (2024-01-07)
 
 
