@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.10](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.9...v2.1.10) (2024-01-08)
+
+
+### Continuous integration
+
+* **cd:** remove redundant `npm publish args` ([820db1d](https://github.com/Fdawgs/fastify-floc-off/commit/820db1d45f781f01077765dcf84a7bceeb7191a6))
+* **cd:** use granular job permissions over top-level ([e33f437](https://github.com/Fdawgs/fastify-floc-off/commit/e33f437051870c3ae24f51a29127f40b3c0d39ec))
+
 ## [2.1.9](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.8...v2.1.9) (2024-01-07)
 
 
