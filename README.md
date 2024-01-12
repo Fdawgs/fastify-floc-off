@@ -12,7 +12,7 @@
 
 The `fastify-floc-off` plugin adds the "interest-cohort=()" directive to the `Permissions-Policy` response header to opt-out of Google's Topics advertising-surveillance API. It will create a new header if one does not already exist.
 
-This was originally created to opt-out of Google's FLoC (Federated Learning of Cohorts) but has since been replaced with their [Topics API](https://github.com/patcg-individual-drafts/topics), which has the same privacy issues.
+This was originally created to opt-out of Google's FLoC (Federated Learning of Cohorts), which has since been replaced with their [Topics API](https://github.com/patcg-individual-drafts/topics), though it has the same privacy issues.
 
 You can read more about the issues that surround Google's FLoC [on EFF](https://eff.org/deeplinks/2021/03/googles-floc-terrible-idea) and [Plausible Analytics](https://plausible.io/blog/google-floc).
 
