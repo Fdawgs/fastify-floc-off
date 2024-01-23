@@ -55,7 +55,7 @@ jobs:
               # Remove dev values from package.json before publishing to reduce package size
               run: |
                   npm pkg delete commitlint devDependencies jest scripts
-                  npm publish --ignore-scripts --provenance
+                  npm publish --access public --ignore-scripts --provenance
 
     publish-ghp:
         name: Publish to GitHub Packages
