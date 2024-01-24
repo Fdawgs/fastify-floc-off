@@ -1,5 +1,33 @@
 # Changelog
 
+## [2.1.11](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.10...v2.1.11) (2024-01-24)
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([1c7e53d](https://github.com/Fdawgs/fastify-floc-off/commit/1c7e53dc99e9b48493490ca5e1e068efffd801f9))
+
+
+### Miscellaneous
+
+* **.vscode:** use local prettier version ([105035c](https://github.com/Fdawgs/fastify-floc-off/commit/105035c5099b5cc9e058fc302a766679eab341d4))
+* **jsconfig:** remove `lib`; `target` will be used in absence ([9d7608a](https://github.com/Fdawgs/fastify-floc-off/commit/9d7608a9c9bec8f4f7b3e3b36882c2900c3ec18c))
+* **package:** fix `repository` structure ([c6673f0](https://github.com/Fdawgs/fastify-floc-off/commit/c6673f0cfef867816416e8f2b743ff4aa72902bc))
+* **scripts/license-checker:** handle old license arrays or missing ([00b52f5](https://github.com/Fdawgs/fastify-floc-off/commit/00b52f56e3738f29e1146e24c1fcb46959e463f2))
+
+
+### Continuous integration
+
+* **automerge:** optimise inline js scripts ([9099ff6](https://github.com/Fdawgs/fastify-floc-off/commit/9099ff66b94dfbdb3f83b1e9374e7cfe91f84c64))
+* **cd:** param order ([2852a50](https://github.com/Fdawgs/fastify-floc-off/commit/2852a507050358ed8cb629b6e348ea156b9c0f71))
+* **cd:** publish to github packages with provenance ([db56d80](https://github.com/Fdawgs/fastify-floc-off/commit/db56d808e523c0b746db6fd077842f69740cdf90))
+* **cd:** use `main` environment for publish-npm job ([2ea9d76](https://github.com/Fdawgs/fastify-floc-off/commit/2ea9d767fb3adc7eda32665b51ecd129dcb1d0cc))
+
+
+### Documentation
+
+* **readme:** grammar fixes ([535691e](https://github.com/Fdawgs/fastify-floc-off/commit/535691ebf5bd4d5cd0c45db3b79d0cd6fa476e93))
+
 ## [2.1.10](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.9...v2.1.10) (2024-01-08)
 
 
