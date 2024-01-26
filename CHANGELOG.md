@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.1.12](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.11...v2.1.12) (2024-01-26)
+
+
+### Dependencies
+
+* **deps-dev:** bump husky from 8.0.3 to 9.0.6 ([#223](https://github.com/Fdawgs/fastify-floc-off/issues/223)) ([caf4eb3](https://github.com/Fdawgs/fastify-floc-off/commit/caf4eb391d0b6bbfe4d614202766fb64493f1f86))
+
+
+### Miscellaneous
+
+* **.husky:** migrate hooks to v9 style ([06a1816](https://github.com/Fdawgs/fastify-floc-off/commit/06a1816e3afa43846d7eff534b19476fc4a3c786))
+
+
+### Continuous integration
+
+* **deps:** bump actions/dependency-review-action from 3 to 4 ([#222](https://github.com/Fdawgs/fastify-floc-off/issues/222)) ([a782893](https://github.com/Fdawgs/fastify-floc-off/commit/a78289342d0caee2e89af0afd21604ab06abedb3))
+
 ## [2.1.11](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.10...v2.1.11) (2024-01-24)
 
 
