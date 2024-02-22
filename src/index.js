@@ -23,10 +23,10 @@ async function fastifyFlocOff(server) {
 			return;
 		}
 
-		if (!header) {
-			res.header("Permissions-Policy", "interest-cohort=()");
-		} else {
+		if (header) {
 			res.header("Permissions-Policy", `${header}, interest-cohort=()`);
+		} else {
+			res.header("Permissions-Policy", "interest-cohort=()");
 		}
 	});
 }
