@@ -34,6 +34,6 @@ async function fastifyFlocOff(server) {
 module.exports = fp(fastifyFlocOff, {
 	fastify: "4.x",
 	name: "fastify-floc-off",
-});
-module.exports.default = fastifyFlocOff;
-module.exports.fastifyFlocOff = fastifyFlocOff;
+}); // CommonJS export
+module.exports.default = fastifyFlocOff; // ESM default export
+module.exports.fastifyFlocOff = fastifyFlocOff; // TypeScript and named export
