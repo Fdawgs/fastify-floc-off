@@ -1,5 +1,38 @@
 # Changelog
 
+## [2.1.12](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.11...v2.1.12) (2024-05-03)
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([dd41126](https://github.com/Fdawgs/fastify-floc-off/commit/dd4112672ae65a3642e981a77f74c2fd81d5835a))
+* **deps-dev:** bump husky from 8.0.3 to 9.0.6 ([#223](https://github.com/Fdawgs/fastify-floc-off/issues/223)) ([caf4eb3](https://github.com/Fdawgs/fastify-floc-off/commit/caf4eb391d0b6bbfe4d614202766fb64493f1f86))
+* **deps-dev:** bump the commitlint group with 2 updates ([#227](https://github.com/Fdawgs/fastify-floc-off/issues/227)) ([253e0cf](https://github.com/Fdawgs/fastify-floc-off/commit/253e0cf402af4b4cf279259917f897df59ba29b7))
+
+
+### Miscellaneous
+
+* **.husky:** migrate hooks to v9 style ([06a1816](https://github.com/Fdawgs/fastify-floc-off/commit/06a1816e3afa43846d7eff534b19476fc4a3c786))
+* **.vscode:** fix `prettier.prettierPath` setting ([89ed836](https://github.com/Fdawgs/fastify-floc-off/commit/89ed836ca085710d197231d95ab66b3cb6a2ae72))
+* **index:** inline comment re export types ([0768f72](https://github.com/Fdawgs/fastify-floc-off/commit/0768f72ea54d18a41ed61cd0210d87c448653d8e))
+* **jsconfig:** enable strict type checking ([e981513](https://github.com/Fdawgs/fastify-floc-off/commit/e9815136be96c355ab4742d44a8eebe319e6722d))
+
+
+### Continuous integration
+
+* **cd:** standardise [@fdawgs](https://github.com/fdawgs) cd workflows ([d6ed4ea](https://github.com/Fdawgs/fastify-floc-off/commit/d6ed4eaa5613bdbc2b259b5880ab1e43be1b5dcc))
+* **ci:** audit package signatures and provenance attestations ([6365f2b](https://github.com/Fdawgs/fastify-floc-off/commit/6365f2b1110365868418d325efd2c46e8f4b8036))
+* **ci:** standardise [@fdawgs](https://github.com/fdawgs) ci workflows ([d2c24f6](https://github.com/Fdawgs/fastify-floc-off/commit/d2c24f6f3877d06c8e1bc72123a0e1bcf8308ee0))
+* **dependabot:** add `[@eslint-community](https://github.com/eslint-community)` scoped deps to eslint group ([bc3f03f](https://github.com/Fdawgs/fastify-floc-off/commit/bc3f03f07a7f162f83640c938d2563b3365a7b92))
+* **deps:** bump actions/dependency-review-action from 3 to 4 ([#222](https://github.com/Fdawgs/fastify-floc-off/issues/222)) ([a782893](https://github.com/Fdawgs/fastify-floc-off/commit/a78289342d0caee2e89af0afd21604ab06abedb3))
+* **deps:** bump wagoid/commitlint-github-action from 5 to 6 ([#228](https://github.com/Fdawgs/fastify-floc-off/issues/228)) ([704a92b](https://github.com/Fdawgs/fastify-floc-off/commit/704a92bd5164f2b57aba464f6c7567e9e5610bdf))
+* use latest node lts version ([bdc0666](https://github.com/Fdawgs/fastify-floc-off/commit/bdc06668b9e7cf29ace524e15ae82f12e14f0049))
+
+
+### Improvements
+
+* **index:** swap negated condition ([327480e](https://github.com/Fdawgs/fastify-floc-off/commit/327480ef4db1942e1090c4e409cb97c3ba06fd78))
+
 ## [2.1.11](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.10...v2.1.11) (2024-01-24)
 
 
