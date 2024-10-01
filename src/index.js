@@ -32,7 +32,7 @@ async function fastifyFlocOff(server) {
 }
 
 module.exports = fp(fastifyFlocOff, {
-	fastify: "4.x",
+	fastify: "5.x",
 	name: "fastify-floc-off",
 }); // CommonJS export
 module.exports.default = fastifyFlocOff; // ESM default export

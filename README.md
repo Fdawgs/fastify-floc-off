@@ -26,7 +26,7 @@ Install using `npm`:
 npm i fastify-floc-off
 ```
 
-For Fastify v3.x support, use `fastify-floc-off@1.0.7`.
+For Fastify v4.x support, use `fastify-floc-off@2.1.11`.
 
 ## Example usage
 
