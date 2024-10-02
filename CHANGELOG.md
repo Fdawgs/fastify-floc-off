@@ -1,5 +1,55 @@
 # Changelog
 
+## [3.0.0](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.11...v3.0.0) (2024-10-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* dropped support for fastify v4.x
+* dropped support for node 14, 16 and 18
+
+### Continuous integration
+
+* **cd:** sort release note sections alphabetically ([5a4a974](https://github.com/Fdawgs/fastify-floc-off/commit/5a4a9743f6e2dc29cfc874dd9cbb84643ff9ee56))
+* **cd:** standardise [@fdawgs](https://github.com/fdawgs) cd workflows ([d6ed4ea](https://github.com/Fdawgs/fastify-floc-off/commit/d6ed4eaa5613bdbc2b259b5880ab1e43be1b5dcc))
+* **ci:** audit package signatures and provenance attestations ([6365f2b](https://github.com/Fdawgs/fastify-floc-off/commit/6365f2b1110365868418d325efd2c46e8f4b8036))
+* **ci:** standardise [@fdawgs](https://github.com/fdawgs) ci workflows ([d2c24f6](https://github.com/Fdawgs/fastify-floc-off/commit/d2c24f6f3877d06c8e1bc72123a0e1bcf8308ee0))
+* **dependabot:** add `[@eslint-community](https://github.com/eslint-community)` scoped deps to eslint group ([bc3f03f](https://github.com/Fdawgs/fastify-floc-off/commit/bc3f03f07a7f162f83640c938d2563b3365a7b92))
+* **deps:** bump actions/dependency-review-action from 3 to 4 ([#222](https://github.com/Fdawgs/fastify-floc-off/issues/222)) ([a782893](https://github.com/Fdawgs/fastify-floc-off/commit/a78289342d0caee2e89af0afd21604ab06abedb3))
+* **deps:** bump coverallsapp/github-action from 2.2.3 to 2.3.0 ([#235](https://github.com/Fdawgs/fastify-floc-off/issues/235)) ([be36112](https://github.com/Fdawgs/fastify-floc-off/commit/be36112387c06054d386eb1e927be58a6c8398a0))
+* **deps:** bump wagoid/commitlint-github-action from 5 to 6 ([#228](https://github.com/Fdawgs/fastify-floc-off/issues/228)) ([704a92b](https://github.com/Fdawgs/fastify-floc-off/commit/704a92bd5164f2b57aba464f6c7567e9e5610bdf))
+* use latest node lts version ([bdc0666](https://github.com/Fdawgs/fastify-floc-off/commit/bdc06668b9e7cf29ace524e15ae82f12e14f0049))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([dd41126](https://github.com/Fdawgs/fastify-floc-off/commit/dd4112672ae65a3642e981a77f74c2fd81d5835a))
+* **deps-dev:** bump husky from 8.0.3 to 9.0.6 ([#223](https://github.com/Fdawgs/fastify-floc-off/issues/223)) ([caf4eb3](https://github.com/Fdawgs/fastify-floc-off/commit/caf4eb391d0b6bbfe4d614202766fb64493f1f86))
+* **deps-dev:** bump the commitlint group with 2 updates ([#227](https://github.com/Fdawgs/fastify-floc-off/issues/227)) ([253e0cf](https://github.com/Fdawgs/fastify-floc-off/commit/253e0cf402af4b4cf279259917f897df59ba29b7))
+
+
+### Features
+
+* support fastify v5.x ([2c51678](https://github.com/Fdawgs/fastify-floc-off/commit/2c5167899dd6eb2e47a0885f95a89d87540e1564))
+
+
+### Improvements
+
+* **index:** swap negated condition ([327480e](https://github.com/Fdawgs/fastify-floc-off/commit/327480ef4db1942e1090c4e409cb97c3ba06fd78))
+
+
+### Miscellaneous
+
+* **.husky/commit-msg:** remove `npx` usage ([a5528e4](https://github.com/Fdawgs/fastify-floc-off/commit/a5528e44009d3c93f66bf7f2c3cf5aad65920adb))
+* **.husky:** migrate hooks to v9 style ([06a1816](https://github.com/Fdawgs/fastify-floc-off/commit/06a1816e3afa43846d7eff534b19476fc4a3c786))
+* **.npmrc:** enforce strict engine checks ([17451c3](https://github.com/Fdawgs/fastify-floc-off/commit/17451c3ea0f83abf8135b6d45387347b9b89068f))
+* **.npmrc:** remove excess whitespace ([b46f290](https://github.com/Fdawgs/fastify-floc-off/commit/b46f290df05372fd316cbcf4ed262e2715417e88))
+* **.vscode:** fix `prettier.prettierPath` setting ([89ed836](https://github.com/Fdawgs/fastify-floc-off/commit/89ed836ca085710d197231d95ab66b3cb6a2ae72))
+* drop support for node 14, 16, and 18 ([d6c007e](https://github.com/Fdawgs/fastify-floc-off/commit/d6c007eeb56cbf5963a7c16adee9b4154ff8f93e))
+* **index:** inline comment re export types ([0768f72](https://github.com/Fdawgs/fastify-floc-off/commit/0768f72ea54d18a41ed61cd0210d87c448653d8e))
+* **jsconfig:** enable strict type checking ([e981513](https://github.com/Fdawgs/fastify-floc-off/commit/e9815136be96c355ab4742d44a8eebe319e6722d))
+* **package:** change author email ([22ea6c7](https://github.com/Fdawgs/fastify-floc-off/commit/22ea6c7109ea8b37454c71537073ff18b8c09d2b))
+
 ## [2.1.11](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.10...v2.1.11) (2024-01-24)
 
 
