@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.0...v3.0.1) (2024-10-14)
+
+
+### Continuous integration
+
+* **cd:** migrate to manifest config ([c779227](https://github.com/Fdawgs/fastify-floc-off/commit/c779227db2f631d3b698a04178862bd1c5a2b098))
+
 ## [3.0.0](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.11...v3.0.0) (2024-10-02)
 
 
