@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.0...v3.0.1) (2024-12-05)
+
+
+### Continuous integration
+
+* **cd:** migrate to manifest config ([c779227](https://github.com/Fdawgs/fastify-floc-off/commit/c779227db2f631d3b698a04178862bd1c5a2b098))
+* **ci:** use major tag for coverallsapp/github-action ([0fb12f9](https://github.com/Fdawgs/fastify-floc-off/commit/0fb12f9f48ef3383e89106734e5e8bae2483f742))
+* **deps:** bump coverallsapp/github-action from 2.3.0 to 2.3.1 ([#246](https://github.com/Fdawgs/fastify-floc-off/issues/246)) ([bd4990c](https://github.com/Fdawgs/fastify-floc-off/commit/bd4990ca77263b7b975651c0d36cd10212b2b1eb))
+* **deps:** bump coverallsapp/github-action from 2.3.1 to 2.3.4 ([#248](https://github.com/Fdawgs/fastify-floc-off/issues/248)) ([d16fb6c](https://github.com/Fdawgs/fastify-floc-off/commit/d16fb6c99760b28a08ae1f3c0cb65e6722ad88c6))
+
 ## [3.0.0](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.11...v3.0.0) (2024-10-02)
 
 
