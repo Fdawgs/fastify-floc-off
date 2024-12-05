@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/release/Fdawgs/fastify-floc-off.svg)](https://github.com/Fdawgs/fastify-floc-off/releases/latest/)
 [![npm version](https://img.shields.io/npm/v/fastify-floc-off)](https://npmjs.com/package/fastify-floc-off)
-[![Build status](https://github.com/Fdawgs/fastify-floc-off/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Fdawgs/fastify-floc-off/actions/workflows/ci.yml)
+[![CI](https://github.com/Fdawgs/fastify-floc-off/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Fdawgs/fastify-floc-off/actions/workflows/ci.yml)
 [![Coverage status](https://coveralls.io/repos/github/Fdawgs/fastify-floc-off/badge.svg?branch=main)](https://coveralls.io/github/Fdawgs/fastify-floc-off?branch=main)
 [![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
