@@ -56,7 +56,7 @@ Please adhere to this project's [Code of Conduct](https://github.com/Fdawgs/.git
 
 ## Acknowledgements
 
--   [**Aras Abbasi**](https://github.com/uzlopak) - TypeScript support
+- [**Aras Abbasi**](https://github.com/uzlopak) - TypeScript support
 
 ## License
 
