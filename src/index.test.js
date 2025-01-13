@@ -1,5 +1,6 @@
 "use strict";
 
+const { after, before, describe, it } = require("node:test");
 const Fastify = require("fastify");
 const plugin = require(".");
 
@@ -8,7 +9,7 @@ describe("Floc-Off plugin", () => {
 		/** @type {Fastify.FastifyInstance} */
 		let server;
 
-		beforeAll(async () => {
+		before(async () => {
 			server = Fastify({ pluginTimeout: 0 });
 			server
 				.register(async (existingHeaderContext) => {
@@ -45,49 +46,52 @@ describe("Floc-Off plugin", () => {
 			await server.ready();
 		});
 
-		afterAll(async () => server.close());
+		after(async () => server.close());
 
-		it("Adds to an existing Permissions-Policy header", async () => {
+		it("Adds to an existing Permissions-Policy header", async (t) => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/exist",
 			});
 
-			expect(response.body).toBe("ok");
-			expect(response.headers).toMatchObject({
-				"permissions-policy": "camera=(), interest-cohort=()",
-			});
-			expect(response.statusCode).toBe(200);
+			t.plan(3);
+			t.assert.strictEqual(response.body, "ok");
+			t.assert.strictEqual(
+				response.headers["permissions-policy"],
+				"camera=(), interest-cohort=()"
+			);
+			t.assert.strictEqual(response.statusCode, 200);
 		});
 
-		it("Adds a new Permissions-Policy header to existing array", async () => {
+		it("Adds a new Permissions-Policy header to existing array", async (t) => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/existarray",
 			});
 
-			expect(response.body).toBe("ok");
-			expect(response.headers).toMatchObject({
-				"permissions-policy": [
-					"camera=()",
-					"microphone=()",
-					"interest-cohort=()",
-				],
-			});
-			expect(response.statusCode).toBe(200);
+			t.plan(3);
+			t.assert.strictEqual(response.body, "ok");
+			t.assert.deepStrictEqual(response.headers["permissions-policy"], [
+				"camera=()",
+				"microphone=()",
+				"interest-cohort=()",
+			]);
+			t.assert.strictEqual(response.statusCode, 200);
 		});
 
-		it("Sets Permissions-Policy header if not found", async () => {
+		it("Sets Permissions-Policy header if not found", async (t) => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/noexist",
 			});
 
-			expect(response.body).toBe("ok");
-			expect(response.headers).toMatchObject({
-				"permissions-policy": "interest-cohort=()",
-			});
-			expect(response.statusCode).toBe(200);
+			t.plan(3);
+			t.assert.strictEqual(response.body, "ok");
+			t.assert.strictEqual(
+				response.headers["permissions-policy"],
+				"interest-cohort=()"
+			);
+			t.assert.strictEqual(response.statusCode, 200);
 		});
 	});
 });
