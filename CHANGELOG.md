@@ -1,5 +1,33 @@
 # Changelog
 
+## [3.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.0...v3.0.1) (2025-01-13)
+
+
+### Continuous integration
+
+* **cd:** migrate to manifest config ([c779227](https://github.com/Fdawgs/fastify-floc-off/commit/c779227db2f631d3b698a04178862bd1c5a2b098))
+* **ci:** use major tag for coverallsapp/github-action ([0fb12f9](https://github.com/Fdawgs/fastify-floc-off/commit/0fb12f9f48ef3383e89106734e5e8bae2483f742))
+* **deps:** bump coverallsapp/github-action from 2.3.0 to 2.3.1 ([#246](https://github.com/Fdawgs/fastify-floc-off/issues/246)) ([bd4990c](https://github.com/Fdawgs/fastify-floc-off/commit/bd4990ca77263b7b975651c0d36cd10212b2b1eb))
+* **deps:** bump coverallsapp/github-action from 2.3.1 to 2.3.4 ([#248](https://github.com/Fdawgs/fastify-floc-off/issues/248)) ([d16fb6c](https://github.com/Fdawgs/fastify-floc-off/commit/d16fb6c99760b28a08ae1f3c0cb65e6722ad88c6))
+* **release-please:** declare schema ([31fcdd7](https://github.com/Fdawgs/fastify-floc-off/commit/31fcdd783a2742cab642efc4a2dfa1e7cb23b6b6))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([6453755](https://github.com/Fdawgs/fastify-floc-off/commit/6453755713d3e2c36d0b99b382f5771227846d55))
+* migrate from jest to native node:test ([#254](https://github.com/Fdawgs/fastify-floc-off/issues/254)) ([5662185](https://github.com/Fdawgs/fastify-floc-off/commit/56621854d0031af89d3bfec3f58bd3071f54ebe8))
+
+
+### Documentation
+
+* **readme:** rename ci badge to reflect workflow ([5b8fbcc](https://github.com/Fdawgs/fastify-floc-off/commit/5b8fbcc6cec9f9edb8e4ac59f04e3c45149c7f27))
+
+
+### Miscellaneous
+
+* **jsconfig:** set schema ([523c2a7](https://github.com/Fdawgs/fastify-floc-off/commit/523c2a765d2de4298eaa3ffdab15d663fea77afc))
+* **license:** update license year ([07982c3](https://github.com/Fdawgs/fastify-floc-off/commit/07982c3c6a4a0fd1492dcfccc4aa17985a37382e))
+
 ## [3.0.0](https://github.com/Fdawgs/fastify-floc-off/compare/v2.1.11...v3.0.0) (2024-10-02)
 
 
