@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.1...v3.0.2) (2025-01-30)
+
+
+### Miscellaneous
+
+* use impersonal language ([c101c38](https://github.com/Fdawgs/fastify-floc-off/commit/c101c38a3d05a76c2eb3c0c231a2bdae1cbe4d80))
+
 ## [3.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.0...v3.0.1) (2025-01-13)
 
 
