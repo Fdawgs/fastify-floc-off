@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.1...v3.0.2) (2025-02-05)
+
+
+### Continuous integration
+
+* **automerge:** flush buffer to disk ([51d7a63](https://github.com/Fdawgs/fastify-floc-off/commit/51d7a63b28c4cdd67f9119da8087a5fba66a1ad1))
+
+
+### Dependencies
+
+* **deps-dev:** remove upath ([0dd80ff](https://github.com/Fdawgs/fastify-floc-off/commit/0dd80ff3e746625b0a6b6c6c44376701e84af9c0))
+
+
+### Miscellaneous
+
+* use impersonal language ([c101c38](https://github.com/Fdawgs/fastify-floc-off/commit/c101c38a3d05a76c2eb3c0c231a2bdae1cbe4d80))
+
 ## [3.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.0...v3.0.1) (2025-01-13)
 
 
