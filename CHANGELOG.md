@@ -1,5 +1,27 @@
 # Changelog
 
+## [3.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.1...v3.0.2) (2025-04-29)
+
+
+### Continuous integration
+
+* **.github:** pin actions to commit-hash; set permissions at job level ([0bdc45b](https://github.com/Fdawgs/fastify-floc-off/commit/0bdc45b92b50c3db47c34aba216c8cae8ac8f31d))
+* add top-level workflow permissions ([#261](https://github.com/Fdawgs/fastify-floc-off/issues/261)) ([0613433](https://github.com/Fdawgs/fastify-floc-off/commit/0613433dd799def86b55deedb50ba694c71bb5dc))
+* **automerge:** flush buffer to disk ([51d7a63](https://github.com/Fdawgs/fastify-floc-off/commit/51d7a63b28c4cdd67f9119da8087a5fba66a1ad1))
+* **codeql:** analyse github actions ([06986b5](https://github.com/Fdawgs/fastify-floc-off/commit/06986b5d1b0fdc3cc1ad3b8bd7e645811104967c))
+* **deps:** bump github/codeql-action from 3.28.12 to 3.28.13 ([#262](https://github.com/Fdawgs/fastify-floc-off/issues/262)) ([ac2469f](https://github.com/Fdawgs/fastify-floc-off/commit/ac2469f10a65113de671f8ca0b6961f478879012))
+* use latest node lts version for unit tests ([#263](https://github.com/Fdawgs/fastify-floc-off/issues/263)) ([7261214](https://github.com/Fdawgs/fastify-floc-off/commit/72612142ca5c9fa0e29c75a9c7b223c21c428b52))
+
+
+### Dependencies
+
+* **deps-dev:** remove upath ([0dd80ff](https://github.com/Fdawgs/fastify-floc-off/commit/0dd80ff3e746625b0a6b6c6c44376701e84af9c0))
+
+
+### Miscellaneous
+
+* use impersonal language ([c101c38](https://github.com/Fdawgs/fastify-floc-off/commit/c101c38a3d05a76c2eb3c0c231a2bdae1cbe4d80))
+
 ## [3.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.0...v3.0.1) (2025-01-13)
 
 
