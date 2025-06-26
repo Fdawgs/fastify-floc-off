@@ -15,23 +15,16 @@ async function fastifyFlocOff(server) {
 		async function setFlocPermissionsHeader(_req, res) {
 			const header = res.getHeader("Permissions-Policy");
 
-			/**
-			 * Headers can be returned as an array.
-			 * @see {@link https://nodejs.org/docs/latest/api/http.html#requestsetheadername-value | Node.js HTTP API}
-			 */
 			if (Array.isArray(header)) {
 				header.push("interest-cohort=()");
 				res.header("Permissions-Policy", header);
-				return;
-			}
-
-			if (header) {
+			} else {
 				res.header(
 					"Permissions-Policy",
-					`${header}, interest-cohort=()`
+					header
+						? `${header}, interest-cohort=()`
+						: "interest-cohort=()"
 				);
-			} else {
-				res.header("Permissions-Policy", "interest-cohort=()");
 			}
 		}
 	);
