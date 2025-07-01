@@ -1,5 +1,55 @@
 # Changelog
 
+## [3.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.1...v3.0.2) (2025-07-01)
+
+
+### Bug fixes
+
+* **index:** do not add directive if it already exists ([#279](https://github.com/Fdawgs/fastify-floc-off/issues/279)) ([b2b0bac](https://github.com/Fdawgs/fastify-floc-off/commit/b2b0bac99c0c522c9b063d4ee1cc573c04537fde))
+
+
+### Continuous integration
+
+* **.github:** pin actions to commit-hash; set permissions at job level ([0bdc45b](https://github.com/Fdawgs/fastify-floc-off/commit/0bdc45b92b50c3db47c34aba216c8cae8ac8f31d))
+* add top-level workflow permissions ([#261](https://github.com/Fdawgs/fastify-floc-off/issues/261)) ([0613433](https://github.com/Fdawgs/fastify-floc-off/commit/0613433dd799def86b55deedb50ba694c71bb5dc))
+* **automerge:** flush buffer to disk ([51d7a63](https://github.com/Fdawgs/fastify-floc-off/commit/51d7a63b28c4cdd67f9119da8087a5fba66a1ad1))
+* **cd:** grant issue write permissions for tags ([#271](https://github.com/Fdawgs/fastify-floc-off/issues/271)) ([7dce7a1](https://github.com/Fdawgs/fastify-floc-off/commit/7dce7a1e8884ca8938ec66e6ab3a683db3f93113))
+* **ci:** add node 24 to test matrix ([#267](https://github.com/Fdawgs/fastify-floc-off/issues/267)) ([0eb55b6](https://github.com/Fdawgs/fastify-floc-off/commit/0eb55b696c892c1433317be877f229af2b96959d))
+* **codeql:** analyse github actions ([06986b5](https://github.com/Fdawgs/fastify-floc-off/commit/06986b5d1b0fdc3cc1ad3b8bd7e645811104967c))
+* **deps:** bump actions/dependency-review-action from 4.5.0 to 4.6.0 ([#266](https://github.com/Fdawgs/fastify-floc-off/issues/266)) ([d10d785](https://github.com/Fdawgs/fastify-floc-off/commit/d10d7852272b20ebbfbe3a17861fd9aa23341f44))
+* **deps:** bump actions/dependency-review-action from 4.6.0 to 4.7.1 ([#269](https://github.com/Fdawgs/fastify-floc-off/issues/269)) ([0d67ab7](https://github.com/Fdawgs/fastify-floc-off/commit/0d67ab73bbc68d264022445e02990372c8cb7208))
+* **deps:** bump actions/setup-node from 4.3.0 to 4.4.0 ([#265](https://github.com/Fdawgs/fastify-floc-off/issues/265)) ([c248cbb](https://github.com/Fdawgs/fastify-floc-off/commit/c248cbb4b9f525a9e455ce0e031d0e405b2e0822))
+* **deps:** bump github/codeql-action from 3.28.12 to 3.28.13 ([#262](https://github.com/Fdawgs/fastify-floc-off/issues/262)) ([ac2469f](https://github.com/Fdawgs/fastify-floc-off/commit/ac2469f10a65113de671f8ca0b6961f478879012))
+* **deps:** bump github/codeql-action from 3.28.13 to 3.28.16 ([#264](https://github.com/Fdawgs/fastify-floc-off/issues/264)) ([21ebca4](https://github.com/Fdawgs/fastify-floc-off/commit/21ebca40db977fe14aa9a36229a4b18f00869c6f))
+* **deps:** bump github/codeql-action from 3.28.16 to 3.28.18 ([#268](https://github.com/Fdawgs/fastify-floc-off/issues/268)) ([b4eac35](https://github.com/Fdawgs/fastify-floc-off/commit/b4eac351ea5b733998001bcc31fa2dbdd783b112))
+* use latest node lts version for unit tests ([#263](https://github.com/Fdawgs/fastify-floc-off/issues/263)) ([7261214](https://github.com/Fdawgs/fastify-floc-off/commit/72612142ca5c9fa0e29c75a9c7b223c21c428b52))
+* use tags for immutable github actions ([#270](https://github.com/Fdawgs/fastify-floc-off/issues/270)) ([f735308](https://github.com/Fdawgs/fastify-floc-off/commit/f735308d69cb34624e8b887ecdf8afa89acd76f9))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([#275](https://github.com/Fdawgs/fastify-floc-off/issues/275)) ([52087da](https://github.com/Fdawgs/fastify-floc-off/commit/52087da89838f69ab87f460b3f03eb6ff9db0322))
+* **deps-dev:** migrate to eslint flat config ([#274](https://github.com/Fdawgs/fastify-floc-off/issues/274)) ([b5e8f92](https://github.com/Fdawgs/fastify-floc-off/commit/b5e8f92c52f81c0be5a3e49edcf59454a9a0e611))
+* **deps-dev:** remove upath ([0dd80ff](https://github.com/Fdawgs/fastify-floc-off/commit/0dd80ff3e746625b0a6b6c6c44376701e84af9c0))
+* **deps-dev:** replace license-checker with licensee ([#273](https://github.com/Fdawgs/fastify-floc-off/issues/273)) ([1907365](https://github.com/Fdawgs/fastify-floc-off/commit/19073658e1fd88c8b167f66cd92caa5254652208))
+
+
+### Documentation
+
+* **readme:** add compatibility table ([#278](https://github.com/Fdawgs/fastify-floc-off/issues/278)) ([266fba0](https://github.com/Fdawgs/fastify-floc-off/commit/266fba06a72c531bdaaea5fb21be6e17405af1d9))
+
+
+### Improvements
+
+* **index:** name hook function ([#276](https://github.com/Fdawgs/fastify-floc-off/issues/276)) ([6a2ff6d](https://github.com/Fdawgs/fastify-floc-off/commit/6a2ff6d10a21a7a71decedd7165d688b3329992d))
+* **index:** simplify conditional logic ([#277](https://github.com/Fdawgs/fastify-floc-off/issues/277)) ([5e2aad8](https://github.com/Fdawgs/fastify-floc-off/commit/5e2aad87593b0970a51d2559aa2670ebc35c173d))
+
+
+### Miscellaneous
+
+* **license:** replace date range with `-present` ([#272](https://github.com/Fdawgs/fastify-floc-off/issues/272)) ([7f0c645](https://github.com/Fdawgs/fastify-floc-off/commit/7f0c6450e2b27b86554516442b451a95ad6cf614))
+* use impersonal language ([c101c38](https://github.com/Fdawgs/fastify-floc-off/commit/c101c38a3d05a76c2eb3c0c231a2bdae1cbe4d80))
+
 ## [3.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.0...v3.0.1) (2025-01-13)
 
 
