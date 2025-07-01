@@ -36,6 +36,32 @@ describe("Floc-Off plugin", () => {
 							res.send("ok");
 						});
 				})
+				.register(async (existingDirectiveStringContext) => {
+					existingDirectiveStringContext
+						.addHook("onRequest", async (_req, res) => {
+							res.header(
+								"Permissions-Policy",
+								"interest-cohort=()"
+							);
+						})
+						.register(plugin)
+						.get("/existdirective", (_req, res) => {
+							res.send("ok");
+						});
+				})
+				.register(async (existingDirectiveArrayContext) => {
+					existingDirectiveArrayContext
+						.addHook("onRequest", async (_req, res) => {
+							res.header("Permissions-Policy", [
+								"camera=()",
+								"interest-cohort=()",
+							]);
+						})
+						.register(plugin)
+						.get("/existdirectivearray", (_req, res) => {
+							res.send("ok");
+						});
+				})
 				.register(async (noExistingHeaderContext) => {
 					noExistingHeaderContext
 						.register(plugin)
@@ -49,7 +75,7 @@ describe("Floc-Off plugin", () => {
 
 		after(async () => server.close());
 
-		it("Adds to an existing Permissions-Policy header", async (t) => {
+		it("Adds to an existing Permissions-Policy header (string)", async (t) => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/exist",
@@ -64,7 +90,7 @@ describe("Floc-Off plugin", () => {
 			t.assert.strictEqual(response.statusCode, 200);
 		});
 
-		it("Adds a new Permissions-Policy header to existing array", async (t) => {
+		it("Adds to an existing Permissions-Policy header (array)", async (t) => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/existarray",
@@ -75,6 +101,36 @@ describe("Floc-Off plugin", () => {
 			t.assert.deepStrictEqual(response.headers["permissions-policy"], [
 				"camera=()",
 				"microphone=()",
+				"interest-cohort=()",
+			]);
+			t.assert.strictEqual(response.statusCode, 200);
+		});
+
+		it("Does not duplicate interest-cohort directive if already present (string)", async (t) => {
+			const response = await server.inject({
+				method: "GET",
+				url: "/existdirective",
+			});
+
+			t.plan(3);
+			t.assert.strictEqual(response.body, "ok");
+			t.assert.strictEqual(
+				response.headers["permissions-policy"],
+				"interest-cohort=()"
+			);
+			t.assert.strictEqual(response.statusCode, 200);
+		});
+
+		it("Does not duplicate interest-cohort directive if already present (array)", async (t) => {
+			const response = await server.inject({
+				method: "GET",
+				url: "/existdirectivearray",
+			});
+
+			t.plan(3);
+			t.assert.strictEqual(response.body, "ok");
+			t.assert.deepStrictEqual(response.headers["permissions-policy"], [
+				"camera=()",
 				"interest-cohort=()",
 			]);
 			t.assert.strictEqual(response.statusCode, 200);
