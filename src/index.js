@@ -2,6 +2,8 @@
 
 const fp = require("fastify-plugin");
 
+const DIRECTIVE = "interest-cohort=()";
+
 /**
  * @author Frazer Smith
  * @description Simple plugin that adds an `onRequest` hook to opt out of Google's FLoC
@@ -16,15 +18,17 @@ async function fastifyFlocOff(server) {
 			const header = res.getHeader("Permissions-Policy");
 
 			if (Array.isArray(header)) {
-				header.push("interest-cohort=()");
-				res.header("Permissions-Policy", header);
+				if (!header.some((item) => item.includes(DIRECTIVE))) {
+					header.push(DIRECTIVE);
+					res.header("Permissions-Policy", header);
+				}
+			} else if (typeof header === "string") {
+				if (!header.includes(DIRECTIVE)) {
+					res.header("Permissions-Policy", `${header}, ${DIRECTIVE}`);
+				}
 			} else {
-				res.header(
-					"Permissions-Policy",
-					header
-						? `${header}, interest-cohort=()`
-						: "interest-cohort=()"
-				);
+				// No header exists yet
+				res.header("Permissions-Policy", DIRECTIVE);
 			}
 		}
 	);
