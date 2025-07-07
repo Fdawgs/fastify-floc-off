@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.3](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.2...v3.0.3) (2025-07-07)
+
+
+### Continuous integration
+
+* **dependabot:** add eslint config to eslint group ([#280](https://github.com/Fdawgs/fastify-floc-off/issues/280)) ([eb82a90](https://github.com/Fdawgs/fastify-floc-off/commit/eb82a9080680bf60748f17cc2e3150ed299301ca))
+
 ## [3.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.1...v3.0.2) (2025-07-01)
 
 
