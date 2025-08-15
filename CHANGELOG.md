@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.0.3](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.2...v3.0.3) (2025-08-15)
+
+
+### Continuous integration
+
+* **cd:** only scope package if it is not already ([#282](https://github.com/Fdawgs/fastify-floc-off/issues/282)) ([c32806a](https://github.com/Fdawgs/fastify-floc-off/commit/c32806ae1c9874113d18b0ac8324fbb76ebde293))
+* **cd:** use oicd for publishing to npm ([#285](https://github.com/Fdawgs/fastify-floc-off/issues/285)) ([2f495ef](https://github.com/Fdawgs/fastify-floc-off/commit/2f495efe352cc0da65777d5303f4adb67e4e355f))
+* **dependabot:** add eslint config to eslint group ([#280](https://github.com/Fdawgs/fastify-floc-off/issues/280)) ([eb82a90](https://github.com/Fdawgs/fastify-floc-off/commit/eb82a9080680bf60748f17cc2e3150ed299301ca))
+* **link-check:** retry on 429 response ([#284](https://github.com/Fdawgs/fastify-floc-off/issues/284)) ([7221db9](https://github.com/Fdawgs/fastify-floc-off/commit/7221db9cd52de8187cc83959ac6b7be8c5459f96))
+
 ## [3.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.1...v3.0.2) (2025-07-01)
 
 
