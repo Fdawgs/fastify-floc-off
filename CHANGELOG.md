@@ -1,5 +1,36 @@
 # Changelog
 
+## [4.0.0](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.2...v4.0.0) (2025-08-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **index:** switch to callback style to remove Promise overhead ([#286](https://github.com/Fdawgs/fastify-floc-off/issues/286))
+
+### Continuous integration
+
+* **cd:** only scope package if it is not already ([#282](https://github.com/Fdawgs/fastify-floc-off/issues/282)) ([c32806a](https://github.com/Fdawgs/fastify-floc-off/commit/c32806ae1c9874113d18b0ac8324fbb76ebde293))
+* **cd:** use oicd for publishing to npm ([#285](https://github.com/Fdawgs/fastify-floc-off/issues/285)) ([2f495ef](https://github.com/Fdawgs/fastify-floc-off/commit/2f495efe352cc0da65777d5303f4adb67e4e355f))
+* **dependabot:** add eslint config to eslint group ([#280](https://github.com/Fdawgs/fastify-floc-off/issues/280)) ([eb82a90](https://github.com/Fdawgs/fastify-floc-off/commit/eb82a9080680bf60748f17cc2e3150ed299301ca))
+* **link-check:** retry on 429 response ([#284](https://github.com/Fdawgs/fastify-floc-off/issues/284)) ([7221db9](https://github.com/Fdawgs/fastify-floc-off/commit/7221db9cd52de8187cc83959ac6b7be8c5459f96))
+
+
+### Improvements
+
+* **index:** hoist `setFlocPermissionsHeader` to module scope ([#289](https://github.com/Fdawgs/fastify-floc-off/issues/289)) ([fb6eb2c](https://github.com/Fdawgs/fastify-floc-off/commit/fb6eb2c8b3d083b5b00a4062722bc015859f6bad))
+* **index:** switch to callback style to remove Promise overhead ([#286](https://github.com/Fdawgs/fastify-floc-off/issues/286)) ([080df94](https://github.com/Fdawgs/fastify-floc-off/commit/080df9481624dbc32190392326e01273049945ba))
+
+
+### Miscellaneous
+
+* **index:** use `done` over `next` for callback name ([#290](https://github.com/Fdawgs/fastify-floc-off/issues/290)) ([f45abb5](https://github.com/Fdawgs/fastify-floc-off/commit/f45abb59d02503d836cdbac934e7acc5ae983fab))
+* **index:** use `options` over `opts` for param name ([#288](https://github.com/Fdawgs/fastify-floc-off/issues/288)) ([02e9fdd](https://github.com/Fdawgs/fastify-floc-off/commit/02e9fdd391848e73bbff633797114f02f37df4c6))
+
+
+### Tests
+
+* **index:** add testcontext jsdoc to satisfy ts2775 on assertions ([#287](https://github.com/Fdawgs/fastify-floc-off/issues/287)) ([f75da54](https://github.com/Fdawgs/fastify-floc-off/commit/f75da5495ae3cd124503f7f50e94f947efb1eafa))
+
 ## [3.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.1...v3.0.2) (2025-07-01)
 
 
