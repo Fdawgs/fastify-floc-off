@@ -5,6 +5,8 @@ const { after, before, describe, it } = require("node:test");
 const Fastify = require("fastify");
 const plugin = require(".");
 
+/** @typedef {import('node:test').TestContext} TestContext */
+
 describe("Floc-Off plugin", () => {
 	describe("Response headers", () => {
 		/** @type {Fastify.FastifyInstance} */
@@ -75,7 +77,7 @@ describe("Floc-Off plugin", () => {
 
 		after(async () => server.close());
 
-		it("Adds to an existing Permissions-Policy header (string)", async (t) => {
+		it("Adds to an existing Permissions-Policy header (string)", async (/** @type {TestContext} */ t) => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/exist",
@@ -90,7 +92,7 @@ describe("Floc-Off plugin", () => {
 			t.assert.strictEqual(response.statusCode, 200);
 		});
 
-		it("Adds to an existing Permissions-Policy header (array)", async (t) => {
+		it("Adds to an existing Permissions-Policy header (array)", async (/** @type {TestContext} */ t) => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/existarray",
@@ -106,7 +108,7 @@ describe("Floc-Off plugin", () => {
 			t.assert.strictEqual(response.statusCode, 200);
 		});
 
-		it("Does not duplicate interest-cohort directive if already present (string)", async (t) => {
+		it("Does not duplicate interest-cohort directive if already present (string)", async (/** @type {TestContext} */ t) => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/existdirective",
@@ -121,7 +123,7 @@ describe("Floc-Off plugin", () => {
 			t.assert.strictEqual(response.statusCode, 200);
 		});
 
-		it("Does not duplicate interest-cohort directive if already present (array)", async (t) => {
+		it("Does not duplicate interest-cohort directive if already present (array)", async (/** @type {TestContext} */ t) => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/existdirectivearray",
@@ -136,7 +138,7 @@ describe("Floc-Off plugin", () => {
 			t.assert.strictEqual(response.statusCode, 200);
 		});
 
-		it("Sets Permissions-Policy header if not found", async (t) => {
+		it("Sets Permissions-Policy header if not found", async (/** @type {TestContext} */ t) => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/noexist",
