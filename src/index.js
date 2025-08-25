@@ -11,7 +11,7 @@ const DIRECTIVE = "interest-cohort=()";
  * to the Permissions-Policy response header.
  * @type {import("fastify").FastifyPluginCallback}
  */
-function fastifyFlocOff(server, _opts, done) {
+function fastifyFlocOff(server, _options, done) {
 	server.addHook(
 		"onRequest",
 		function setFlocPermissionsHeader(_req, res, next) {
