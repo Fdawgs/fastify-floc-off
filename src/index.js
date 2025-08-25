@@ -10,7 +10,7 @@ const DIRECTIVE = "interest-cohort=()";
  * Permissions-Policy response header.
  * @type {import("fastify").onRequestHookHandler}
  */
-function setFlocPermissionsHeader(_req, res, next) {
+function setFlocPermissionsHeader(_req, res, done) {
 	const header = res.getHeader("Permissions-Policy");
 
 	if (Array.isArray(header)) {
@@ -26,7 +26,7 @@ function setFlocPermissionsHeader(_req, res, next) {
 		// No header exists yet
 		res.header("Permissions-Policy", DIRECTIVE);
 	}
-	next();
+	done();
 }
 
 /**
