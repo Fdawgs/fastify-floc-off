@@ -1,11 +1,11 @@
-import type { FastifyPluginAsync } from "fastify";
+import type { FastifyPluginCallback } from "fastify";
 
 declare namespace fastifyFlocOff {
-	export const fastifyFlocOff: FastifyPluginAsync;
+	export const fastifyFlocOff: FastifyPluginCallback;
 	export { fastifyFlocOff as default };
 }
 
 declare function fastifyFlocOff(
-	...params: Parameters<FastifyPluginAsync>
-): ReturnType<FastifyPluginAsync>;
+	...params: Parameters<FastifyPluginCallback>
+): ReturnType<FastifyPluginCallback>;
 export = fastifyFlocOff;

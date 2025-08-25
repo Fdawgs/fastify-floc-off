@@ -9,12 +9,12 @@ const DIRECTIVE = "interest-cohort=()";
  * @description Simple plugin that adds an `onRequest` hook to opt out of Google's FLoC
  * advertising-surveillance network by setting/adding the "interest-cohort=()" directive
  * to the Permissions-Policy response header.
- * @param {import("fastify").FastifyInstance} server - Fastify instance.
+ * @type {import("fastify").FastifyPluginCallback}
  */
-async function fastifyFlocOff(server) {
+function fastifyFlocOff(server, _opts, done) {
 	server.addHook(
 		"onRequest",
-		async function setFlocPermissionsHeader(_req, res) {
+		function setFlocPermissionsHeader(_req, res, next) {
 			const header = res.getHeader("Permissions-Policy");
 
 			if (Array.isArray(header)) {
@@ -30,8 +30,10 @@ async function fastifyFlocOff(server) {
 				// No header exists yet
 				res.header("Permissions-Policy", DIRECTIVE);
 			}
+			next();
 		}
 	);
+	done();
 }
 
 module.exports = fp(fastifyFlocOff, {
