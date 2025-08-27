@@ -2,6 +2,7 @@
 
 const fp = require("fastify-plugin");
 
+const HEADER = "permissions-policy";
 const DIRECTIVE = "interest-cohort=()";
 
 /**
@@ -11,20 +12,20 @@ const DIRECTIVE = "interest-cohort=()";
  * @type {import("fastify").onRequestHookHandler}
  */
 function setFlocPermissionsHeader(_req, res, done) {
-	const header = res.getHeader("Permissions-Policy");
+	const header = res.getHeader(HEADER);
 
 	if (Array.isArray(header)) {
 		if (!header.some((item) => item.includes(DIRECTIVE))) {
 			header.push(DIRECTIVE);
-			res.header("Permissions-Policy", header);
+			res.header(HEADER, header);
 		}
 	} else if (typeof header === "string") {
 		if (!header.includes(DIRECTIVE)) {
-			res.header("Permissions-Policy", `${header}, ${DIRECTIVE}`);
+			res.header(HEADER, `${header}, ${DIRECTIVE}`);
 		}
 	} else {
 		// No header exists yet
-		res.header("Permissions-Policy", DIRECTIVE);
+		res.header(HEADER, DIRECTIVE);
 	}
 	done();
 }
