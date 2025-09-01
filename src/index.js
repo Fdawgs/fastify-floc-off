@@ -16,7 +16,8 @@ function setFlocPermissionsHeader(_req, res, done) {
 
 	if (Array.isArray(existing)) {
 		let found = false;
-		for (let i = 0; i < existing.length; i += 1) {
+		const existingLength = existing.length;
+		for (let i = 0; i < existingLength; i += 1) {
 			if (existing[i].includes(DIRECTIVE)) {
 				found = true;
 				break;
