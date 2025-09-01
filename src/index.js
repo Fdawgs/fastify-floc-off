@@ -12,16 +12,23 @@ const DIRECTIVE = "interest-cohort=()";
  * @type {import("fastify").onRequestHookHandler}
  */
 function setFlocPermissionsHeader(_req, res, done) {
-	const header = res.getHeader(HEADER);
+	const existing = res.getHeader(HEADER);
 
-	if (Array.isArray(header)) {
-		if (!header.some((item) => item.includes(DIRECTIVE))) {
-			header.push(DIRECTIVE);
-			res.header(HEADER, header);
+	if (Array.isArray(existing)) {
+		let found = false;
+		for (let i = 0; i < existing.length; i += 1) {
+			if (existing[i].includes(DIRECTIVE)) {
+				found = true;
+				break;
+			}
 		}
-	} else if (typeof header === "string") {
-		if (!header.includes(DIRECTIVE)) {
-			res.header(HEADER, `${header}, ${DIRECTIVE}`);
+		if (!found) {
+			existing.push(DIRECTIVE);
+			res.header(HEADER, existing);
+		}
+	} else if (typeof existing === "string") {
+		if (!existing.includes(DIRECTIVE)) {
+			res.header(HEADER, `${existing}, ${DIRECTIVE}`);
 		}
 	} else {
 		// No header exists yet
