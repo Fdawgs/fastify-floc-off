@@ -1,5 +1,53 @@
 # Changelog
 
+## [4.0.0](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.2...v4.0.0) (2025-10-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **index:** switch to callback style to remove Promise overhead ([#286](https://github.com/Fdawgs/fastify-floc-off/issues/286))
+
+### Continuous integration
+
+* **cd:** only scope package if it is not already ([#282](https://github.com/Fdawgs/fastify-floc-off/issues/282)) ([c32806a](https://github.com/Fdawgs/fastify-floc-off/commit/c32806ae1c9874113d18b0ac8324fbb76ebde293))
+* **cd:** protect against cache poisoning ([#302](https://github.com/Fdawgs/fastify-floc-off/issues/302)) ([0cea731](https://github.com/Fdawgs/fastify-floc-off/commit/0cea7317e4b20569fd412405051e085f1373ee81))
+* **cd:** use oicd for publishing to npm ([#285](https://github.com/Fdawgs/fastify-floc-off/issues/285)) ([2f495ef](https://github.com/Fdawgs/fastify-floc-off/commit/2f495efe352cc0da65777d5303f4adb67e4e355f))
+* **ci:** add typecheck to lint job ([#303](https://github.com/Fdawgs/fastify-floc-off/issues/303)) ([71aab89](https://github.com/Fdawgs/fastify-floc-off/commit/71aab8940a7502bed8322d76d66228320d0ca64f))
+* **ci:** check dependabot prs originate from repo ([#300](https://github.com/Fdawgs/fastify-floc-off/issues/300)) ([e55a2b4](https://github.com/Fdawgs/fastify-floc-off/commit/e55a2b4531eec6fcc6ee152838a15654e12a1732))
+* **dependabot:** add eslint config to eslint group ([#280](https://github.com/Fdawgs/fastify-floc-off/issues/280)) ([eb82a90](https://github.com/Fdawgs/fastify-floc-off/commit/eb82a9080680bf60748f17cc2e3150ed299301ca))
+* **deps:** bump actions/checkout from 4 to 5 ([#294](https://github.com/Fdawgs/fastify-floc-off/issues/294)) ([6169d7c](https://github.com/Fdawgs/fastify-floc-off/commit/6169d7c24b57dfb1f1230814ffca2b10b8fe8057))
+* **deps:** bump actions/dependency-review-action from 4.7.1 to 4.7.3 ([#295](https://github.com/Fdawgs/fastify-floc-off/issues/295)) ([29fae63](https://github.com/Fdawgs/fastify-floc-off/commit/29fae638cb29164d95f1d65276c30804686df698))
+* **deps:** bump actions/setup-node from 4 to 5 ([#298](https://github.com/Fdawgs/fastify-floc-off/issues/298)) ([6a1b7cb](https://github.com/Fdawgs/fastify-floc-off/commit/6a1b7cb8b81acc59d5469c4d7b32bae0542bcac5))
+* **deps:** bump googleapis/release-please-action from 4.2.0 to 4.3.0 ([#293](https://github.com/Fdawgs/fastify-floc-off/issues/293)) ([870ddd1](https://github.com/Fdawgs/fastify-floc-off/commit/870ddd10b30c8de7e03e8cc234a4d5c958830647))
+* **link-check:** retry on 429 response ([#284](https://github.com/Fdawgs/fastify-floc-off/issues/284)) ([7221db9](https://github.com/Fdawgs/fastify-floc-off/commit/7221db9cd52de8187cc83959ac6b7be8c5459f96))
+* tidy conditional checks ([#301](https://github.com/Fdawgs/fastify-floc-off/issues/301)) ([c798c3f](https://github.com/Fdawgs/fastify-floc-off/commit/c798c3f9e6b853b098ac502611cfb5e422cc52f3))
+
+
+### Dependencies
+
+* **dependabot:** add cooldowns ([#297](https://github.com/Fdawgs/fastify-floc-off/issues/297)) ([e27d2f5](https://github.com/Fdawgs/fastify-floc-off/commit/e27d2f5a264c67017f092c3b06a9c50c4829b345))
+
+
+### Improvements
+
+* **index:** cache header name const ([#291](https://github.com/Fdawgs/fastify-floc-off/issues/291)) ([7733093](https://github.com/Fdawgs/fastify-floc-off/commit/77330938065cf690ca01daaa2f10d1b9a04eea8d))
+* **index:** hoist `setFlocPermissionsHeader` to module scope ([#289](https://github.com/Fdawgs/fastify-floc-off/issues/289)) ([fb6eb2c](https://github.com/Fdawgs/fastify-floc-off/commit/fb6eb2c8b3d083b5b00a4062722bc015859f6bad))
+* **index:** switch to callback style to remove Promise overhead ([#286](https://github.com/Fdawgs/fastify-floc-off/issues/286)) ([080df94](https://github.com/Fdawgs/fastify-floc-off/commit/080df9481624dbc32190392326e01273049945ba))
+* **index:** use imperative over func loop to avoid closure overhead ([#292](https://github.com/Fdawgs/fastify-floc-off/issues/292)) ([18506fb](https://github.com/Fdawgs/fastify-floc-off/commit/18506fbf7e1a6f47b469739ea18d527afccd79be))
+
+
+### Miscellaneous
+
+* **.npmrc:** ignore scripts ([#299](https://github.com/Fdawgs/fastify-floc-off/issues/299)) ([cf2ddde](https://github.com/Fdawgs/fastify-floc-off/commit/cf2ddde342043da8292684be1d2dcfe817755030))
+* add `.nvmrc` file ([#296](https://github.com/Fdawgs/fastify-floc-off/issues/296)) ([0d08df2](https://github.com/Fdawgs/fastify-floc-off/commit/0d08df26e2ad5563257446edd45dbb26840f70e8))
+* **index:** use `done` over `next` for callback name ([#290](https://github.com/Fdawgs/fastify-floc-off/issues/290)) ([f45abb5](https://github.com/Fdawgs/fastify-floc-off/commit/f45abb59d02503d836cdbac934e7acc5ae983fab))
+* **index:** use `options` over `opts` for param name ([#288](https://github.com/Fdawgs/fastify-floc-off/issues/288)) ([02e9fdd](https://github.com/Fdawgs/fastify-floc-off/commit/02e9fdd391848e73bbff633797114f02f37df4c6))
+
+
+### Tests
+
+* **index:** add testcontext jsdoc to satisfy ts2775 on assertions ([#287](https://github.com/Fdawgs/fastify-floc-off/issues/287)) ([f75da54](https://github.com/Fdawgs/fastify-floc-off/commit/f75da5495ae3cd124503f7f50e94f947efb1eafa))
+
 ## [3.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.1...v3.0.2) (2025-07-01)
 
 
