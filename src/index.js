@@ -18,7 +18,7 @@ function setFlocPermissionsHeader(_req, res, done) {
 		let found = false;
 		const existingLength = existing.length;
 		for (let i = 0; i < existingLength; i += 1) {
-			if (existing[i].includes(DIRECTIVE)) {
+			if (existing[i].toLowerCase().includes(DIRECTIVE)) {
 				found = true;
 				break;
 			}
@@ -28,7 +28,7 @@ function setFlocPermissionsHeader(_req, res, done) {
 			res.header(HEADER, existing);
 		}
 	} else if (typeof existing === "string") {
-		if (!existing.includes(DIRECTIVE)) {
+		if (!existing.toLowerCase().includes(DIRECTIVE)) {
 			res.header(HEADER, `${existing}, ${DIRECTIVE}`);
 		}
 	} else {
