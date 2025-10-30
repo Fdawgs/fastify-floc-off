@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.0...v4.0.1) (2025-10-30)
+
+
+### Bug fixes
+
+* **index:** case-insensitive directive comparison ([#310](https://github.com/Fdawgs/fastify-floc-off/issues/310)) ([f6566d8](https://github.com/Fdawgs/fastify-floc-off/commit/f6566d885256cbdd1a01e038d80e929116483c03))
+
+
+### Miscellaneous
+
+* rename lint scripts to reflect use ([#313](https://github.com/Fdawgs/fastify-floc-off/issues/313)) ([84532c9](https://github.com/Fdawgs/fastify-floc-off/commit/84532c947970b53ad9ff2598cf5a48594753550a))
+
 ## [4.0.0](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.2...v4.0.0) (2025-10-09)
 
 
