@@ -15,18 +15,15 @@ function setFlocPermissionsHeader(_req, res, done) {
 	const existing = res.getHeader(HEADER);
 
 	if (Array.isArray(existing)) {
-		let found = false;
 		const existingLength = existing.length;
 		for (let i = 0; i < existingLength; i += 1) {
 			if (existing[i].includes(DIRECTIVE)) {
-				found = true;
-				break;
+				done();
 			}
 		}
-		if (!found) {
-			existing.push(DIRECTIVE);
-			res.header(HEADER, existing);
-		}
+
+		existing.push(DIRECTIVE);
+		res.header(HEADER, existing);
 	} else if (typeof existing === "string") {
 		if (!existing.includes(DIRECTIVE)) {
 			res.header(HEADER, `${existing}, ${DIRECTIVE}`);
