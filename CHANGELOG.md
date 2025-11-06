@@ -1,5 +1,32 @@
 # Changelog
 
+## [4.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.0...v4.0.1) (2025-11-06)
+
+
+### Bug fixes
+
+* **index:** case-insensitive directive comparison ([#310](https://github.com/Fdawgs/fastify-floc-off/issues/310)) ([f6566d8](https://github.com/Fdawgs/fastify-floc-off/commit/f6566d885256cbdd1a01e038d80e929116483c03))
+
+
+### Continuous integration
+
+* **deps:** bump actions/dependency-review-action from 4.8.0 to 4.8.1 ([#319](https://github.com/Fdawgs/fastify-floc-off/issues/319)) ([d8e9c4c](https://github.com/Fdawgs/fastify-floc-off/commit/d8e9c4ccb8bb6abd009d6620e4c9f8efd1e6c4fa))
+* **deps:** bump actions/setup-node from 5 to 6 ([#318](https://github.com/Fdawgs/fastify-floc-off/issues/318)) ([8a089e7](https://github.com/Fdawgs/fastify-floc-off/commit/8a089e7ebd98714ae42ee6cb46bfe8f1bdb2bd4e))
+* **deps:** bump fastify/github-action-merge-dependabot ([#315](https://github.com/Fdawgs/fastify-floc-off/issues/315)) ([1a001f4](https://github.com/Fdawgs/fastify-floc-off/commit/1a001f4ec7e072b3d0a467c80b7ffa6c1c9b475b))
+* **deps:** bump github/codeql-action from 3 to 4 ([#314](https://github.com/Fdawgs/fastify-floc-off/issues/314)) ([6ac5efc](https://github.com/Fdawgs/fastify-floc-off/commit/6ac5efce571d0e4a1d710dff2c3d6e48f6a14939))
+* **deps:** bump googleapis/release-please-action from 4.3.0 to 4.4.0 ([#317](https://github.com/Fdawgs/fastify-floc-off/issues/317)) ([26cf442](https://github.com/Fdawgs/fastify-floc-off/commit/26cf442ad8f2b32540e32838f6a5491b83319a61))
+* **deps:** bump JustinBeckwith/linkinator-action from 1.11.0 to 2.3 ([#316](https://github.com/Fdawgs/fastify-floc-off/issues/316)) ([96dc187](https://github.com/Fdawgs/fastify-floc-off/commit/96dc187e86043effbc505b14658876c86afc14d2))
+
+
+### Dependencies
+
+* **deps-dev:** bump @fdawgs/eslint-config in the eslint group ([#320](https://github.com/Fdawgs/fastify-floc-off/issues/320)) ([3c0daf0](https://github.com/Fdawgs/fastify-floc-off/commit/3c0daf07b635ada3b059425a739348c933cd5f7b))
+
+
+### Miscellaneous
+
+* rename lint scripts to reflect use ([#313](https://github.com/Fdawgs/fastify-floc-off/issues/313)) ([84532c9](https://github.com/Fdawgs/fastify-floc-off/commit/84532c947970b53ad9ff2598cf5a48594753550a))
+
 ## [4.0.0](https://github.com/Fdawgs/fastify-floc-off/compare/v3.0.2...v4.0.0) (2025-10-09)
 
 
