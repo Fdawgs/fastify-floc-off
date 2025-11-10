@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.1...v4.0.2) (2025-11-10)
+
+
+### Continuous integration
+
+* **ci:** only send coverage to coveralls on main ([#321](https://github.com/Fdawgs/fastify-floc-off/issues/321)) ([3e09e9e](https://github.com/Fdawgs/fastify-floc-off/commit/3e09e9e891bc0e005b114a0e5d155383294b224c))
+
 ## [4.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.0...v4.0.1) (2025-11-06)
 
 
