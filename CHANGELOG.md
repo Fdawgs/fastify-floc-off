@@ -1,5 +1,22 @@
 # Changelog
 
+## [4.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.1...v4.0.2) (2025-11-15)
+
+
+### Continuous integration
+
+* add lock-threads workflow; fix concurrency groups ([#327](https://github.com/Fdawgs/fastify-floc-off/issues/327)) ([dc9c282](https://github.com/Fdawgs/fastify-floc-off/commit/dc9c282b92889771d6e1d14cf2dbba46a8f64b93))
+* **ci:** only send coverage to coveralls on main ([#321](https://github.com/Fdawgs/fastify-floc-off/issues/321)) ([3e09e9e](https://github.com/Fdawgs/fastify-floc-off/commit/3e09e9e891bc0e005b114a0e5d155383294b224c))
+* **link-check:** use reusable workflow ([#329](https://github.com/Fdawgs/fastify-floc-off/issues/329)) ([5665bb8](https://github.com/Fdawgs/fastify-floc-off/commit/5665bb8306f0653cc9257bd405bfd555f42e3876))
+* **lock-threads:** set cron to every day ([#328](https://github.com/Fdawgs/fastify-floc-off/issues/328)) ([231f601](https://github.com/Fdawgs/fastify-floc-off/commit/231f601a46d79711710ca7f96330aaeb8bdbe88b))
+
+
+### Miscellaneous
+
+* **.editorconfig:** add file to enforce consistent coding styles ([#323](https://github.com/Fdawgs/fastify-floc-off/issues/323)) ([f20947e](https://github.com/Fdawgs/fastify-floc-off/commit/f20947ed265a97c16e6fa7f8805aeca1a4d80134))
+* **.editorconfig:** use spaces for yml file indentation ([#326](https://github.com/Fdawgs/fastify-floc-off/issues/326)) ([c2b9525](https://github.com/Fdawgs/fastify-floc-off/commit/c2b9525f23b05974a5d2a1d961150c097c6bb333))
+* **eslint.config:** stop applying to jsx files ([#325](https://github.com/Fdawgs/fastify-floc-off/issues/325)) ([7569af9](https://github.com/Fdawgs/fastify-floc-off/commit/7569af9f1455d56cc5dd39dceb3529be9005b997))
+
 ## [4.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.0...v4.0.1) (2025-11-06)
 
 
