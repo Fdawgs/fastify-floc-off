@@ -1,5 +1,40 @@
 # Changelog
 
+## [4.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.1...v4.0.2) (2026-02-25)
+
+
+### Continuous integration
+
+* add lock-threads workflow; fix concurrency groups ([#327](https://github.com/Fdawgs/fastify-floc-off/issues/327)) ([dc9c282](https://github.com/Fdawgs/fastify-floc-off/commit/dc9c282b92889771d6e1d14cf2dbba46a8f64b93))
+* **cd:** make provenance publishing explicit ([#343](https://github.com/Fdawgs/fastify-floc-off/issues/343)) ([36bbaa0](https://github.com/Fdawgs/fastify-floc-off/commit/36bbaa01918952741b00896560f93712b888f834))
+* **ci:** only send coverage to coveralls on main ([#321](https://github.com/Fdawgs/fastify-floc-off/issues/321)) ([3e09e9e](https://github.com/Fdawgs/fastify-floc-off/commit/3e09e9e891bc0e005b114a0e5d155383294b224c))
+* **codeql:** check cjs, mjs, and ts files ([#333](https://github.com/Fdawgs/fastify-floc-off/issues/333)) ([c1f765c](https://github.com/Fdawgs/fastify-floc-off/commit/c1f765c491c65cd37d29a55dc7255d70196704d7))
+* **deps:** bump actions/checkout from 5 to 6 ([#335](https://github.com/Fdawgs/fastify-floc-off/issues/335)) ([66fa183](https://github.com/Fdawgs/fastify-floc-off/commit/66fa183e50965c9bc1514f9fffdb34d873c6b966))
+* **deps:** bump actions/dependency-review-action from 4.8.1 to 4.8.2 ([#337](https://github.com/Fdawgs/fastify-floc-off/issues/337)) ([19e19d8](https://github.com/Fdawgs/fastify-floc-off/commit/19e19d846e9821ca5aee1e29af5468eadfa8f918))
+* **deps:** bump coverallsapp/github-action from 2.3.6 to 2.3.7 ([#336](https://github.com/Fdawgs/fastify-floc-off/issues/336)) ([699dccf](https://github.com/Fdawgs/fastify-floc-off/commit/699dccf7498808d0a35cf4d47663f4c36004166d))
+* **link-check:** use reusable workflow ([#329](https://github.com/Fdawgs/fastify-floc-off/issues/329)) ([5665bb8](https://github.com/Fdawgs/fastify-floc-off/commit/5665bb8306f0653cc9257bd405bfd555f42e3876))
+* **lock-threads:** set cron to every day ([#328](https://github.com/Fdawgs/fastify-floc-off/issues/328)) ([231f601](https://github.com/Fdawgs/fastify-floc-off/commit/231f601a46d79711710ca7f96330aaeb8bdbe88b))
+
+
+### Dependencies
+
+* **deps-dev:** bump @eslint/compat in the eslint group ([#338](https://github.com/Fdawgs/fastify-floc-off/issues/338)) ([bc42423](https://github.com/Fdawgs/fastify-floc-off/commit/bc4242368151b37d3c91c6a10639796cd2ad3bf3))
+* **deps-dev:** bump @types/node from 24.10.4 to 25.0.3 ([#339](https://github.com/Fdawgs/fastify-floc-off/issues/339)) ([98dc046](https://github.com/Fdawgs/fastify-floc-off/commit/98dc046dc8ef77e421fd17df9886532dfaae16d1))
+* **deps-dev:** bump licensee from 11.1.1 to 12.0.1 ([#340](https://github.com/Fdawgs/fastify-floc-off/issues/340)) ([e6a9b34](https://github.com/Fdawgs/fastify-floc-off/commit/e6a9b34eee4c8370d0b903c4b02ebf7ee8a6b6c2))
+* **deps-dev:** remove husky ([#330](https://github.com/Fdawgs/fastify-floc-off/issues/330)) ([b606563](https://github.com/Fdawgs/fastify-floc-off/commit/b6065638e15b627f20d1f5f6926506521f1868d1))
+
+
+### Miscellaneous
+
+* **.devcontainer:** remove prepare script call ([#334](https://github.com/Fdawgs/fastify-floc-off/issues/334)) ([aab8ad9](https://github.com/Fdawgs/fastify-floc-off/commit/aab8ad96e39bbe18d1e440d7281afe263957265e))
+* **.editorconfig:** add file to enforce consistent coding styles ([#323](https://github.com/Fdawgs/fastify-floc-off/issues/323)) ([f20947e](https://github.com/Fdawgs/fastify-floc-off/commit/f20947ed265a97c16e6fa7f8805aeca1a4d80134))
+* **.editorconfig:** use spaces for yml file indentation ([#326](https://github.com/Fdawgs/fastify-floc-off/issues/326)) ([c2b9525](https://github.com/Fdawgs/fastify-floc-off/commit/c2b9525f23b05974a5d2a1d961150c097c6bb333))
+* **eslint.config:** stop applying to jsx files ([#325](https://github.com/Fdawgs/fastify-floc-off/issues/325)) ([7569af9](https://github.com/Fdawgs/fastify-floc-off/commit/7569af9f1455d56cc5dd39dceb3529be9005b997))
+* **license:** add contact email ([#341](https://github.com/Fdawgs/fastify-floc-off/issues/341)) ([1e11317](https://github.com/Fdawgs/fastify-floc-off/commit/1e11317e1e1a7391ba322ded9e6e100fc92e9c55))
+* move tests from src to test dir ([#331](https://github.com/Fdawgs/fastify-floc-off/issues/331)) ([ae006c7](https://github.com/Fdawgs/fastify-floc-off/commit/ae006c7b159f17b4a68ff0206b2af53548682ebf))
+* **package:** stop running `lint:prettier` twice on `test` call ([#342](https://github.com/Fdawgs/fastify-floc-off/issues/342)) ([824b8d0](https://github.com/Fdawgs/fastify-floc-off/commit/824b8d02ba00b936d3bc3bfd81b8282b56b59a1e))
+* tidy dotfiles, remove redundant deps ([#332](https://github.com/Fdawgs/fastify-floc-off/issues/332)) ([d17154c](https://github.com/Fdawgs/fastify-floc-off/commit/d17154c1da3ad4f0e4e3034cdfdf4b8ec57be529))
+
 ## [4.0.1](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.0...v4.0.1) (2025-11-06)
 
 
