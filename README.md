@@ -22,7 +22,7 @@ More information about the issues surrounding Google's FLoC can be found on [EFF
 
 Install using `npm`:
 
-```bash
+```sh
 npm i fastify-floc-off
 ```
 
