@@ -1,10 +1,10 @@
 # fastify-floc-off
 
-[![GitHub release](https://img.shields.io/github/release/Fdawgs/fastify-floc-off.svg)](https://github.com/Fdawgs/fastify-floc-off/releases/latest/)
-[![npm version](https://img.shields.io/npm/v/fastify-floc-off)](https://npmjs.com/package/fastify-floc-off)
+[![GitHub release](https://img.shields.io/github/v/release/Fdawgs/fastify-floc-off)](https://github.com/Fdawgs/fastify-floc-off/releases/latest)
+[![npm version](https://img.shields.io/npm/v/fastify-floc-off)](https://www.npmjs.com/package/fastify-floc-off)
 [![CI](https://github.com/Fdawgs/fastify-floc-off/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Fdawgs/fastify-floc-off/actions/workflows/ci.yml)
 [![Coverage status](https://coveralls.io/repos/github/Fdawgs/fastify-floc-off/badge.svg?branch=main)](https://coveralls.io/github/Fdawgs/fastify-floc-off?branch=main)
-[![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
+[![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4?style=flat)](https://github.com/prettier/prettier)
 [![OSSF Scorecard](https://api.scorecard.dev/projects/github.com/Fdawgs/fastify-floc-off/badge)](https://scorecard.dev/viewer/?uri=github.com/Fdawgs/fastify-floc-off)
 
 > Fastify plugin to opt-out of Google's Topics advertising-surveillance API
@@ -15,7 +15,7 @@ The `fastify-floc-off` plugin adds the "interest-cohort=()" directive to the `Pe
 
 This was originally created to opt-out of Google's FLoC (Federated Learning of Cohorts), which has since been replaced with their [Topics API](https://github.com/patcg-individual-drafts/topics), though it has the same privacy issues.
 
-More information about the issues surrounding Google's FLoC can be found on [EFF](https://eff.org/deeplinks/2021/03/googles-floc-terrible-idea) and [Plausible Analytics](https://plausible.io/blog/google-floc).
+More information about the issues surrounding Google's FLoC can be found on [EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea) and [Plausible Analytics](https://plausible.io/blog/google-floc).
 
 [Helmet](https://github.com/helmetjs/helmet) and [fastify-helmet](https://github.com/fastify/fastify-helmet) do not support the `Permissions-Policy` response header setting yet, so this plugin was created out of a need for an easy way to disable/opt-out of Google's Topics API. This ensures users accessing web applications are not subject to Google's unsolicited tracking.
 
