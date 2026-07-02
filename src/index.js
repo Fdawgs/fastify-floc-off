@@ -4,6 +4,9 @@ const fp = require("fastify-plugin");
 
 const HEADER = "permissions-policy";
 const DIRECTIVE = "interest-cohort=()";
+// Cache immutable regex as they are expensive to create and garbage collect
+// Use case-insensitive match without allocating new strings like `String.toLowerCase()` would do
+const DIRECTIVE_REG = /interest-cohort=\(\)/iu;
 
 /**
  * @author Frazer Smith
@@ -18,7 +21,7 @@ function setFlocPermissionsHeader(_req, res, done) {
 		let found = false;
 		const existingLength = existing.length;
 		for (let i = 0; i < existingLength; i += 1) {
-			if (existing[i].toLowerCase().includes(DIRECTIVE)) {
+			if (DIRECTIVE_REG.test(existing[i])) {
 				found = true;
 				break;
 			}
@@ -28,7 +31,7 @@ function setFlocPermissionsHeader(_req, res, done) {
 			res.header(HEADER, existing);
 		}
 	} else if (typeof existing === "string") {
-		if (!existing.toLowerCase().includes(DIRECTIVE)) {
+		if (!DIRECTIVE_REG.test(existing)) {
 			res.header(HEADER, `${existing}, ${DIRECTIVE}`);
 		}
 	} else {
