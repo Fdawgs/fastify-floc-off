@@ -64,6 +64,16 @@ describe("Floc-Off plugin", () => {
 							res.send("ok");
 						});
 				})
+				.register(async (existingHeaderNumberContext) => {
+					existingHeaderNumberContext
+						.addHook("onRequest", async (_req, res) => {
+							res.header("Permissions-Policy", 123);
+						})
+						.register(plugin)
+						.get("/existnumber", (_req, res) => {
+							res.send("ok");
+						});
+				})
 				.register(async (noExistingHeaderContext) => {
 					noExistingHeaderContext
 						.register(plugin)
@@ -142,6 +152,21 @@ describe("Floc-Off plugin", () => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/noexist",
+			});
+
+			t.plan(3);
+			t.assert.strictEqual(response.body, "ok");
+			t.assert.strictEqual(
+				response.headers["permissions-policy"],
+				"interest-cohort=()"
+			);
+			t.assert.strictEqual(response.statusCode, 200);
+		});
+
+		it("Overwrites unexpected Permissions-Policy header type (number)", async (/** @type {TestContext} */ t) => {
+			const response = await server.inject({
+				method: "GET",
+				url: "/existnumber",
 			});
 
 			t.plan(3);

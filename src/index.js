@@ -17,7 +17,14 @@ const DIRECTIVE_REG = /interest-cohort=\(\)/iu;
 function setFlocPermissionsHeader(_req, res, done) {
 	const existing = res.getHeader(HEADER);
 
-	if (Array.isArray(existing)) {
+	if (existing === undefined) {
+		// No header exists yet (most common case, so check this first)
+		res.header(HEADER, DIRECTIVE);
+	} else if (typeof existing === "string") {
+		if (!DIRECTIVE_REG.test(existing)) {
+			res.header(HEADER, `${existing}, ${DIRECTIVE}`);
+		}
+	} else if (Array.isArray(existing)) {
 		let found = false;
 		const existingLength = existing.length;
 		for (let i = 0; i < existingLength; i += 1) {
@@ -30,12 +37,8 @@ function setFlocPermissionsHeader(_req, res, done) {
 			existing.push(DIRECTIVE);
 			res.header(HEADER, existing);
 		}
-	} else if (typeof existing === "string") {
-		if (!DIRECTIVE_REG.test(existing)) {
-			res.header(HEADER, `${existing}, ${DIRECTIVE}`);
-		}
 	} else {
-		// No header exists yet
+		// Unexpected header type, so overwrite it with the directive
 		res.header(HEADER, DIRECTIVE);
 	}
 	done();
