@@ -37,6 +37,9 @@ function setFlocPermissionsHeader(_req, res, done) {
 			existing.push(DIRECTIVE);
 			res.header(HEADER, existing);
 		}
+	} else {
+		// Unexpected header type, so overwrite it with the directive
+		res.header(HEADER, DIRECTIVE);
 	}
 	done();
 }
