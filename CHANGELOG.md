@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.3](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.2...v4.0.3) (2026-07-12)
+
+
+### Continuous integration
+
+* **ci:** add node 26 to test matrix ([#359](https://github.com/Fdawgs/fastify-floc-off/issues/359)) ([89d8826](https://github.com/Fdawgs/fastify-floc-off/commit/89d88264f2efa038fa16f4b6abb409d0ac0b3fea))
+
 ## [4.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.1...v4.0.2) (2026-07-12)
 
 
