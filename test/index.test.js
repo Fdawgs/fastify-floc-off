@@ -13,7 +13,7 @@ describe("Floc-Off plugin", () => {
 		let server;
 
 		before(async () => {
-			server = Fastify({ pluginTimeout: 0 });
+			server = Fastify();
 			server
 				.register(async (existingHeaderContext) => {
 					existingHeaderContext
