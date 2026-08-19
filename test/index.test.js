@@ -85,6 +85,32 @@ describe("Floc-Off plugin", () => {
 							res.send("ok");
 						});
 				})
+				.register(async (collidingDirectiveContext) => {
+					collidingDirectiveContext
+						.addHook("onRequest", async (_req, res) => {
+							res.header(
+								"Permissions-Policy",
+								"my-interest-cohort=()"
+							);
+						})
+						.register(plugin)
+						.get("/existcollide", (_req, res) => {
+							res.send("ok");
+						});
+				})
+				.register(async (spacedDirectiveContext) => {
+					spacedDirectiveContext
+						.addHook("onRequest", async (_req, res) => {
+							res.header(
+								"Permissions-Policy",
+								"interest-cohort=( )"
+							);
+						})
+						.register(plugin)
+						.get("/existspaced", (_req, res) => {
+							res.send("ok");
+						});
+				})
 				.register(async (noExistingHeaderContext) => {
 					noExistingHeaderContext
 						.register(plugin)
@@ -185,6 +211,36 @@ describe("Floc-Off plugin", () => {
 			t.assert.strictEqual(
 				response.headers["permissions-policy"],
 				"interest-cohort=()"
+			);
+			t.assert.strictEqual(response.statusCode, 200);
+		});
+
+		it("Does not treat a directive with a matching suffix as the directive", async (/** @type {TestContext} */ t) => {
+			const response = await server.inject({
+				method: "GET",
+				url: "/existcollide",
+			});
+
+			t.plan(3);
+			t.assert.strictEqual(response.body, "ok");
+			t.assert.strictEqual(
+				response.headers["permissions-policy"],
+				"my-interest-cohort=(), interest-cohort=()"
+			);
+			t.assert.strictEqual(response.statusCode, 200);
+		});
+
+		it("Does not duplicate a spaced interest-cohort directive", async (/** @type {TestContext} */ t) => {
+			const response = await server.inject({
+				method: "GET",
+				url: "/existspaced",
+			});
+
+			t.plan(3);
+			t.assert.strictEqual(response.body, "ok");
+			t.assert.strictEqual(
+				response.headers["permissions-policy"],
+				"interest-cohort=( )"
 			);
 			t.assert.strictEqual(response.statusCode, 200);
 		});
