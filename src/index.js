@@ -17,8 +17,7 @@ const DIRECTIVE_REG = /interest-cohort=\(\)/iu;
 function setFlocPermissionsHeader(_req, res, done) {
 	const existing = res.getHeader(HEADER);
 
-	if (existing === undefined) {
-		// No header exists yet (most common case, so check this first)
+	if (existing === undefined || existing === "") {
 		res.header(HEADER, DIRECTIVE);
 	} else if (typeof existing === "string") {
 		if (!DIRECTIVE_REG.test(existing)) {
