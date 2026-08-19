@@ -74,6 +74,17 @@ describe("Floc-Off plugin", () => {
 							res.send("ok");
 						});
 				})
+				.register(async (emptyHeaderContext) => {
+					emptyHeaderContext
+						.addHook("onRequest", async (_req, res) => {
+							// Mirrors `res.header(key)`, which defaults value to ""
+							res.header("Permissions-Policy", "");
+						})
+						.register(plugin)
+						.get("/existempty", (_req, res) => {
+							res.send("ok");
+						});
+				})
 				.register(async (noExistingHeaderContext) => {
 					noExistingHeaderContext
 						.register(plugin)
@@ -152,6 +163,21 @@ describe("Floc-Off plugin", () => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/noexist",
+			});
+
+			t.plan(3);
+			t.assert.strictEqual(response.body, "ok");
+			t.assert.strictEqual(
+				response.headers["permissions-policy"],
+				"interest-cohort=()"
+			);
+			t.assert.strictEqual(response.statusCode, 200);
+		});
+
+		it("Replaces an empty Permissions-Policy header value", async (/** @type {TestContext} */ t) => {
+			const response = await server.inject({
+				method: "GET",
+				url: "/existempty",
 			});
 
 			t.plan(3);
