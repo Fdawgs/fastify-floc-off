@@ -10,7 +10,7 @@ const DIRECTIVE_REG = /(?:^|[, \t])interest-cohort=\(\s*\)(?:[;, \t]|$)/iu;
 
 /**
  * @author Frazer Smith
- * @description Sets/adds the "interest-cohort=()" directive to the
+ * @description Sets/adds the 'interest-cohort=()' directive to the
  * Permissions-Policy response header.
  * @type {import("fastify").onRequestHookHandler}
  */
@@ -46,7 +46,7 @@ function setFlocPermissionsHeader(_req, res, done) {
 /**
  * @author Frazer Smith
  * @description Simple plugin that adds an `onRequest` hook to opt out of Google's FLoC
- * advertising-surveillance network by setting/adding the "interest-cohort=()" directive
+ * advertising-surveillance network by setting/adding the 'interest-cohort=()' directive
  * to the Permissions-Policy response header.
  * @type {import("fastify").FastifyPluginCallback}
  */
