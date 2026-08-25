@@ -6,7 +6,7 @@ const HEADER = "permissions-policy";
 const DIRECTIVE = "interest-cohort=()";
 // Cache immutable regex as they are expensive to create and garbage collect
 // Use case-insensitive match without allocating new strings like `String.toLowerCase()` would do
-const DIRECTIVE_REG = /(?:^|[, \t])interest-cohort=\(\s*\)(?:[;, \t]|$)/iu;
+const DIRECTIVE_REG = /(?:^|[, \t])interest-cohort=\([ \t]*\)(?:[;, \t]|$)/iu;
 
 /**
  * @author Frazer Smith
