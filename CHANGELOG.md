@@ -1,5 +1,46 @@
 # Changelog
 
+## [4.0.3](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.2...v4.0.3) (2026-09-02)
+
+
+### Bug fixes
+
+* **index:** avoid mutating existing header array ([#401](https://github.com/Fdawgs/fastify-floc-off/issues/401)) ([8878ab5](https://github.com/Fdawgs/fastify-floc-off/commit/8878ab5479b52a04d8d6c1c8fe632bb24083e6c5))
+* **index:** match directive on delimiter boundaries ([#399](https://github.com/Fdawgs/fastify-floc-off/issues/399)) ([aad9e68](https://github.com/Fdawgs/fastify-floc-off/commit/aad9e68e454bc618d63868c519ff43d2ec42b152))
+* **index:** match only space and tab inside directive ([#402](https://github.com/Fdawgs/fastify-floc-off/issues/402)) ([ed89568](https://github.com/Fdawgs/fastify-floc-off/commit/ed89568fe25d398a50eec6e645400274f3131043))
+* **index:** treat blank permissions-policy header values as absent ([#408](https://github.com/Fdawgs/fastify-floc-off/issues/408)) ([11d0953](https://github.com/Fdawgs/fastify-floc-off/commit/11d0953f806a7d9ad9ccb8f38f501b226e5eede6))
+* **index:** treat empty permissions-policy header value as absent ([#398](https://github.com/Fdawgs/fastify-floc-off/issues/398)) ([e6e1b04](https://github.com/Fdawgs/fastify-floc-off/commit/e6e1b04db93d5b52f705b6199e60e5699df733a9))
+
+
+### Continuous integration
+
+* **ci:** add node 26 to test matrix ([#359](https://github.com/Fdawgs/fastify-floc-off/issues/359)) ([89d8826](https://github.com/Fdawgs/fastify-floc-off/commit/89d88264f2efa038fa16f4b6abb409d0ac0b3fea))
+* **deps:** bump coverallsapp/github-action from 2.3.7 to 2.3.8 ([#405](https://github.com/Fdawgs/fastify-floc-off/issues/405)) ([e9b7108](https://github.com/Fdawgs/fastify-floc-off/commit/e9b7108d25396bd2f85a8fb46a68a8a284906b32))
+* **deps:** bump the github-owned group with 2 updates ([#404](https://github.com/Fdawgs/fastify-floc-off/issues/404)) ([b8049cf](https://github.com/Fdawgs/fastify-floc-off/commit/b8049cf6378b5a836271d9405b5668882d586cf7))
+* **deps:** bump the github-owned group with 4 updates ([#396](https://github.com/Fdawgs/fastify-floc-off/issues/396)) ([2ec7f3a](https://github.com/Fdawgs/fastify-floc-off/commit/2ec7f3aeddc1f9794985f0550b5ffb31ab342f5a))
+
+
+### Dependencies
+
+* **deps-dev:** bump c8 from 11.0.0 to 12.0.0 ([#395](https://github.com/Fdawgs/fastify-floc-off/issues/395)) ([0a927f8](https://github.com/Fdawgs/fastify-floc-off/commit/0a927f8dc5a75648741b38f3a532d7193a053f26))
+* **deps-dev:** bump prettier from 3.8.5 to 3.9.5 ([#393](https://github.com/Fdawgs/fastify-floc-off/issues/393)) ([e8320e3](https://github.com/Fdawgs/fastify-floc-off/commit/e8320e35eb242ef7d4d59146e017fd0452cb50ae))
+* **deps:** bump ghcr.io/devcontainers/features/github-cli ([#406](https://github.com/Fdawgs/fastify-floc-off/issues/406)) ([0c5bf0b](https://github.com/Fdawgs/fastify-floc-off/commit/0c5bf0ba007c53748439eec950b90776ebcc1c02))
+
+
+### Documentation
+
+* **readme:** correct listen params for fastify v5 ([#407](https://github.com/Fdawgs/fastify-floc-off/issues/407)) ([147dd06](https://github.com/Fdawgs/fastify-floc-off/commit/147dd0641e32bc35d6622f95d2e19f3e32a31fa0))
+
+
+### Miscellaneous
+
+* **index:** consistent quotation style ([#400](https://github.com/Fdawgs/fastify-floc-off/issues/400)) ([c207179](https://github.com/Fdawgs/fastify-floc-off/commit/c207179fe3ede483a892353681768a2f7a2e900c))
+
+
+### Tests
+
+* **index:** remove disabled plugin timeout ([#397](https://github.com/Fdawgs/fastify-floc-off/issues/397)) ([742f6dc](https://github.com/Fdawgs/fastify-floc-off/commit/742f6dcc23d7a51969edee585b16869aa8458211))
+
 ## [4.0.2](https://github.com/Fdawgs/fastify-floc-off/compare/v4.0.1...v4.0.2) (2026-07-12)
 
 
