@@ -85,6 +85,30 @@ describe("Floc-Off plugin", () => {
 							res.send("ok");
 						});
 				})
+				.register(async (blankHeaderContext) => {
+					blankHeaderContext
+						.addHook("onRequest", async (_req, res) => {
+							res.header("Permissions-Policy", " \t");
+						})
+						.register(plugin)
+						.get("/existblank", (_req, res) => {
+							res.send("ok");
+						});
+				})
+				.register(async (blankHeaderArrayContext) => {
+					blankHeaderArrayContext
+						.addHook("onRequest", async (_req, res) => {
+							res.header("Permissions-Policy", [
+								"",
+								"camera=()",
+								" \t",
+							]);
+						})
+						.register(plugin)
+						.get("/existblankarray", (_req, res) => {
+							res.send("ok");
+						});
+				})
 				.register(async (collidingDirectiveContext) => {
 					collidingDirectiveContext
 						.addHook("onRequest", async (_req, res) => {
@@ -212,6 +236,36 @@ describe("Floc-Off plugin", () => {
 				response.headers["permissions-policy"],
 				"interest-cohort=()"
 			);
+			t.assert.strictEqual(response.statusCode, 200);
+		});
+
+		it("Replaces a whitespace-only Permissions-Policy header value", async (/** @type {TestContext} */ t) => {
+			const response = await server.inject({
+				method: "GET",
+				url: "/existblank",
+			});
+
+			t.plan(3);
+			t.assert.strictEqual(response.body, "ok");
+			t.assert.strictEqual(
+				response.headers["permissions-policy"],
+				"interest-cohort=()"
+			);
+			t.assert.strictEqual(response.statusCode, 200);
+		});
+
+		it("Drops blank values from an existing Permissions-Policy header (array)", async (/** @type {TestContext} */ t) => {
+			const response = await server.inject({
+				method: "GET",
+				url: "/existblankarray",
+			});
+
+			t.plan(3);
+			t.assert.strictEqual(response.body, "ok");
+			t.assert.deepStrictEqual(response.headers["permissions-policy"], [
+				"camera=()",
+				"interest-cohort=()",
+			]);
 			t.assert.strictEqual(response.statusCode, 200);
 		});
 

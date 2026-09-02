@@ -7,6 +7,8 @@ const DIRECTIVE = "interest-cohort=()";
 // Cache immutable regex as they are expensive to create and garbage collect
 // Use case-insensitive match without allocating new strings like `String.toLowerCase()` would do
 const DIRECTIVE_REG = /(?:^|[, \t])interest-cohort=\([ \t]*\)(?:[;, \t]|$)/iu;
+// Whitespace-only values are empty per HTTP OWS; appending to them makes the header unparsable
+const BLANK_REG = /^[ \t]*$/u;
 
 /**
  * @author Frazer Smith
@@ -17,26 +19,18 @@ const DIRECTIVE_REG = /(?:^|[, \t])interest-cohort=\([ \t]*\)(?:[;, \t]|$)/iu;
 function setFlocPermissionsHeader(_req, res, done) {
 	const existing = res.getHeader(HEADER);
 
-	if (existing === undefined || existing === "") {
-		res.header(HEADER, DIRECTIVE);
-	} else if (typeof existing === "string") {
+	if (typeof existing === "string" && !BLANK_REG.test(existing)) {
 		if (!DIRECTIVE_REG.test(existing)) {
 			res.header(HEADER, `${existing}, ${DIRECTIVE}`);
 		}
 	} else if (Array.isArray(existing)) {
-		let found = false;
-		const existingLength = existing.length;
-		for (let i = 0; i < existingLength; i += 1) {
-			if (DIRECTIVE_REG.test(existing[i])) {
-				found = true;
-				break;
-			}
-		}
-		if (!found) {
-			res.header(HEADER, [...existing, DIRECTIVE]);
+		if (!existing.some((value) => DIRECTIVE_REG.test(value))) {
+			const values = existing.filter((value) => !BLANK_REG.test(value));
+			values.push(DIRECTIVE);
+			res.header(HEADER, values);
 		}
 	} else {
-		// Unexpected header type, so overwrite it with the directive
+		// Missing, blank, or unexpected header type, so set it to the directive
 		res.header(HEADER, DIRECTIVE);
 	}
 	done();
